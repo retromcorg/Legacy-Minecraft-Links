@@ -9,7 +9,12 @@ link added here shows up on the site once the maintainers merge it and rebuild.
 ## Add a link
 
 1. Edit [`data/links.json`](data/links.json) (the GitHub web editor is fine) and add an entry to the right group.
-2. Run `node scripts/validate-links.mjs` if you can. It needs Node 18 or newer and no packages.
+2. Check your change if you can. It needs Node 18 or newer and no packages:
+
+   ```bash
+   node scripts/validate-links.mjs
+   ```
+
 3. Open a pull request.
 
 The details, the list of fields and what we accept are in [CONTRIBUTING.md](CONTRIBUTING.md).
