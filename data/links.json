@@ -600,6 +600,12 @@
               "description": "Anarchy server with no rules and no map resets.",
               "address": "alphaanarchy.org",
               "tags": "alphaanarchy anarchy no rules map reset"
+            },
+            {
+              "title": "TEST SERVER (ignore)",
+              "description": "Fake entry used to test the automatic deployment.",
+              "address": "test-server.invalid",
+              "tags": "deploytest fake test deployment"
             }
           ]
         }
