@@ -1,0 +1,878 @@
+{
+  "sections": [
+    {
+      "id": "jars",
+      "title": "Server jars",
+      "icon": "chest",
+      "description": "Everything you need to boot a Beta 1.7.3 server. When a release has two jars, take the one *without* `original-` in its name.",
+      "groups": [
+        {
+          "title": "Recommended",
+          "links": [
+            {
+              "title": "Project Poseidon",
+              "url": "https://github.com/retromcorg/Project-Poseidon/releases",
+              "description": "CraftBukkit CB1060 fork for Beta 1.7.3: dupe and crash fixes, UUID support, watchdog, packet events and a TPS API. The default choice for most servers.",
+              "badge": "Active",
+              "badgeType": "live",
+              "tags": "poseidon craftbukkit cb1060 bukkit download release server"
+            },
+            {
+              "title": "Project Poseidon V2",
+              "url": "https://github.com/legacyminecraft/Project-Poseidon-V2/releases",
+              "description": "Next-generation Poseidon. 2.0.0-rc-1 is out and RetroMC reports running it. Per PoseidonCompat it needs Java 25, and some older plugins need shims.",
+              "badge": "RC",
+              "badgeType": "rc",
+              "tags": "poseidon v2 rewrite java 25 release candidate rc"
+            },
+            {
+              "title": "BungeePoseidon",
+              "url": "https://github.com/legacyminecraft/BungeePoseidon/releases",
+              "description": "BungeeCord fork modified for Poseidon V2. Link several servers into one network behind a single address.",
+              "badge": "RC",
+              "badgeType": "rc",
+              "tags": "bungeecord proxy network bungee poseidon v2"
+            },
+            {
+              "title": "Uberbukkit",
+              "url": "https://github.com/Moresteck/uberbukkit/releases",
+              "description": "Poseidon fork that lets b1.7.3 plugins serve clients from b1.0 to b1.7.3 (experimental Alpha support). Whitelist cracked players with online-mode on.",
+              "badge": "Active",
+              "badgeType": "live",
+              "tags": "uberbukkit multi version older beta b1.0 poseidon fork"
+            },
+            {
+              "title": "Uberbukkit build (Betacraft)",
+              "url": "https://betacraft.uk/utilities",
+              "description": "Betacraft-hosted Uberbukkit zip. Ready-made per-version configs live in the `defaults` folder of the Uberbukkit repo.",
+              "host": "betacraft.uk/utilities",
+              "tags": "uberbukkit betacraft zip configs defaults download"
+            }
+          ]
+        },
+        {
+          "title": "Build & deploy",
+          "links": [
+            {
+              "title": "Poseidon Maven repository",
+              "url": "https://repository.legacyminecraft.com/",
+              "description": "Nexus repo hosting the `poseidon-craftbukkit` artifacts for plugin developers. The old repository.johnymuffin.com address redirects here.",
+              "tags": "maven nexus repository artifact api dependency developer poseidon-craftbukkit"
+            },
+            {
+              "title": "itzg/docker-minecraft-server",
+              "url": "https://github.com/itzg/docker-minecraft-server",
+              "description": "Docker image with a Poseidon mode: set `TYPE=POSEIDON`, `VERSION=b1.7.3` and `DISABLE_HEALTHCHECK=true`.",
+              "tags": "docker container itzg image compose"
+            },
+            {
+              "title": "Run a Beta 1.7.3 server in 5 steps",
+              "url": "guide.html",
+              "description": "Java, jar, first boot, `server.properties`, plugins and Docker, with copy-paste commands.",
+              "internal": true,
+              "tags": "guide tutorial how to run host setup beginner"
+            }
+          ]
+        },
+        {
+          "title": "Vanilla & archives",
+          "links": [
+            {
+              "title": "Beta 1.7.3 on the Minecraft Wiki",
+              "url": "https://minecraft.wiki/w/Java_Edition_Beta_1.7.3",
+              "description": "Release notes (July 8, 2011) with links to the original Mojang client and server jars.",
+              "tags": "vanilla mojang official client server jar download release notes wiki"
+            },
+            {
+              "title": "Omniarchive",
+              "url": "https://omniarchive.net/",
+              "description": "Community effort preserving lost Minecraft versions from Classic to Release. The fallback when official downloads are gone.",
+              "tags": "omniarchive archive preservation old versions lost builds"
+            },
+            {
+              "title": "Poseidon on Glass Launcher Jenkins",
+              "url": "https://jenkins.glass-launcher.net/job/Project-Poseidon/",
+              "description": "Old CI builds of Poseidon. The last build there is 1.1.8, so prefer GitHub Releases.",
+              "badge": "Stale",
+              "badgeType": "stale",
+              "tags": "jenkins ci builds historical glass launcher old"
+            },
+            {
+              "title": "Oldschool Edition server-source",
+              "url": "https://github.com/MinecraftOldschoolEdition/server-source",
+              "description": "A Poseidon fork made for Minecraft Oldschool Edition. Read-only since October 2025.",
+              "badge": "Archived",
+              "badgeType": "archived",
+              "host": "github.com/MinecraftOldschoolEdition",
+              "tags": "fork archived oldschool minecraft edition server source poseidon"
+            }
+          ]
+        },
+        {
+          "title": "Alternative implementations",
+          "links": [
+            {
+              "title": "Betrock++",
+              "url": "https://github.com/OfficialPixelBrush/BetrockPlusPlus",
+              "description": "Open-source Beta 1.7.3 compatible server and client written in C++.",
+              "badge": "Experimental",
+              "badgeType": "exp",
+              "tags": "betrock cpp c++ rewrite server client experimental"
+            },
+            {
+              "title": "mc173",
+              "url": "https://docs.rs/mc173-server",
+              "description": "Work-in-progress Beta 1.7.3 server written in Rust, split into a world-logic crate and a protocol server.",
+              "badge": "Experimental",
+              "badgeType": "exp",
+              "host": "docs.rs/mc173-server",
+              "tags": "mc173 rust rewrite server experimental"
+            },
+            {
+              "title": "Composter",
+              "url": "https://github.com/nkomarn/composter",
+              "description": "Clean-room Java implementation of a Beta 1.7.3 server.",
+              "badge": "Experimental",
+              "badgeType": "exp",
+              "tags": "composter java clean room rewrite server experimental"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plugins",
+      "title": "Plugins",
+      "icon": "torch",
+      "description": "Mostly from the RetroMC Development Group, which maintains Poseidon-ready forks and originals. Check each repo's Releases page; some (like Fundamentals) are build-from-source with `mvn clean package`.",
+      "groups": [
+        {
+          "title": "Core",
+          "links": [
+            {
+              "title": "Fundamentals",
+              "url": "https://github.com/retromcorg/Fundamentals",
+              "description": "Essentials replacement built for Poseidon (FundamentalsCore and FundamentalsImport). No prebuilt releases yet, and mainly written for RetroMC.",
+              "badge": "Source",
+              "badgeType": "src",
+              "tags": "essentials replacement commands home warp economy fundamentals core"
+            },
+            {
+              "title": "Essentials (RetroMC fork)",
+              "url": "https://github.com/retromcorg/Essentials",
+              "description": "RetroMC's fork of the classic Essentials suite of server commands.",
+              "tags": "essentials commands home warp kit economy"
+            },
+            {
+              "title": "JohnyPerms",
+              "url": "https://github.com/retromcorg/JohnyPerms",
+              "description": "UUID-aware permissions plugin that replaces PermissionsEx.",
+              "tags": "permissions ranks groups uuid pex johnyperms jperms"
+            },
+            {
+              "title": "Authme-Expanded",
+              "url": "https://github.com/retromcorg/Authme-Expanded",
+              "description": "AuthMe reloaded (forked from whoami-plugins/authme-2.0). Login and registration for offline-mode servers.",
+              "tags": "authme login register password offline mode authentication"
+            },
+            {
+              "title": "Beta-Evolution-Core",
+              "url": "https://github.com/retromcorg/Beta-Evolution-Core",
+              "description": "Plugin for easy communication with the authentication servers.",
+              "tags": "authentication beta evolution core accounts"
+            }
+          ]
+        },
+        {
+          "title": "Building & protection",
+          "links": [
+            {
+              "title": "WorldEdit",
+              "url": "https://github.com/retromcorg/WorldEdit",
+              "description": "The map editor and mod, forked from EngineHub/WorldEdit for Beta 1.7.3.",
+              "tags": "worldedit build editor selection schematic"
+            },
+            {
+              "title": "WorldGuard",
+              "url": "https://github.com/retromcorg/WorldGuard",
+              "description": "Protects a server and lets players claim areas. Forked from EngineHub/WorldGuard.",
+              "tags": "worldguard protect regions claims grief"
+            },
+            {
+              "title": "LWC",
+              "url": "https://github.com/retromcorg/LWC",
+              "description": "Private locks for chests, furnaces and doors (RetroMC's fork).",
+              "tags": "lwc lock chest door protect private"
+            },
+            {
+              "title": "JVillage",
+              "url": "https://github.com/retromcorg/JVillage",
+              "description": "An alternative to Towny for Beta 1.7.3: towns and land claims.",
+              "tags": "jvillage towny towns claims land nations"
+            }
+          ]
+        },
+        {
+          "title": "Moderation & anti-abuse",
+          "links": [
+            {
+              "title": "ChatGuard",
+              "url": "https://github.com/retromcorg/ChatGuard",
+              "description": "Chat filtering, mutes, spam control and penalties.",
+              "tags": "chat filter mute spam penalties moderation chatguard"
+            },
+            {
+              "title": "IPAccountLimiter",
+              "url": "https://github.com/retromcorg/IPAccountLimiter",
+              "description": "Limits how many accounts can join from one IP address.",
+              "tags": "ip alt accounts limit multi account"
+            },
+            {
+              "title": "JDetector",
+              "url": "https://github.com/retromcorg/JDetector",
+              "description": "Detects VPN users via IPHub.",
+              "tags": "vpn proxy detect iphub jdetector"
+            },
+            {
+              "title": "IPHub",
+              "url": "https://github.com/retromcorg/IPHub",
+              "description": "VPN-blocking plugin for Poseidon (fork).",
+              "tags": "vpn block iphub fork"
+            },
+            {
+              "title": "IllegalItemRemover",
+              "url": "https://github.com/retromcorg/IllegalItemRemover",
+              "description": "Scans for certain items and deletes or reports them.",
+              "tags": "illegal items remover scan dupe cleanup"
+            },
+            {
+              "title": "Legacy Minecraft Ban Database",
+              "url": "https://github.com/retromcorg/LMBD",
+              "description": "Public modules for LMBD, with separate Poseidon and Poseidon V2 modules.",
+              "tags": "ban database lmbd shared bans legacy minecraft"
+            },
+            {
+              "title": "StaffChat",
+              "url": "https://github.com/retromcorg/StaffChat",
+              "description": "Staff chat plugin for Project Poseidon.",
+              "tags": "staff chat moderators private channel"
+            },
+            {
+              "title": "LogBlock-Username-Updater",
+              "url": "https://github.com/retromcorg/LogBlock-Username-Updater",
+              "description": "Updates usernames in the LogBlock database from Poseidon's UUIDCache.",
+              "tags": "logblock rollback username uuid cache update"
+            }
+          ]
+        },
+        {
+          "title": "Quality of life",
+          "links": [
+            {
+              "title": "Billboard",
+              "url": "https://github.com/retromcorg/Billboard",
+              "description": "Auto-broadcast plugin with ad requests.",
+              "tags": "broadcast announcements ads billboard"
+            },
+            {
+              "title": "PVPToggle",
+              "url": "https://github.com/retromcorg/PVPToggle",
+              "description": "Let players toggle PvP on and off.",
+              "tags": "pvp toggle combat"
+            },
+            {
+              "title": "JWildTP",
+              "url": "https://github.com/retromcorg/JWildTP",
+              "description": "Random teleport (WildTP) for Beta 1.7.3.",
+              "tags": "wildtp random teleport rtp wild"
+            },
+            {
+              "title": "Custom-Messages",
+              "url": "https://github.com/retromcorg/Custom-Messages",
+              "description": "Custom join and leave messages.",
+              "tags": "join leave messages custom motd"
+            },
+            {
+              "title": "AutoRestartManager",
+              "url": "https://github.com/retromcorg/AutoRestartManager",
+              "description": "Automatic restart plugin, built for RetroMC and Betalands.",
+              "tags": "restart automatic scheduled uptime"
+            },
+            {
+              "title": "JCode",
+              "url": "https://github.com/retromcorg/JCode",
+              "description": "Generates daily verification codes for players, with a `/jcode` cape command.",
+              "tags": "jcode verification codes cape"
+            }
+          ]
+        },
+        {
+          "title": "Discord & integrations",
+          "links": [
+            {
+              "title": "DiscordCore-4",
+              "url": "https://github.com/retromcorg/DiscordCore-4",
+              "description": "Discord bot and API plugin for Beta 1.7.3.",
+              "tags": "discord bot api core jda"
+            },
+            {
+              "title": "DiscordCore-6",
+              "url": "https://github.com/retromcorg/DiscordCore-6",
+              "description": "Provides JDA5 for Bukkit plugins.",
+              "tags": "discord jda5 library"
+            },
+            {
+              "title": "Discord-Bot-Chatbridge",
+              "url": "https://github.com/retromcorg/Discord-Bot-Chatbridge",
+              "description": "Discord chat bridge that uses Retro-Bot.",
+              "tags": "discord chat bridge relay retro-bot"
+            },
+            {
+              "title": "Discord-Command-Alerter",
+              "url": "https://github.com/retromcorg/Discord-Command-Alerter",
+              "description": "Posts command usage to a Discord channel.",
+              "tags": "discord commands alert log audit"
+            },
+            {
+              "title": "DiscordRankSyncer",
+              "url": "https://github.com/retromcorg/DiscordRankSyncer",
+              "description": "Basic plugin to sync JPerms ranks to Discord.",
+              "tags": "discord ranks sync jperms roles"
+            },
+            {
+              "title": "Discord-Authentication-Core",
+              "url": "https://github.com/retromcorg/Discord-Authentication-Core",
+              "description": "Extension on DiscordCore for linking Discord and Minecraft accounts.",
+              "tags": "discord authentication link accounts"
+            }
+          ]
+        },
+        {
+          "title": "Monitoring & stats",
+          "links": [
+            {
+              "title": "JServerInformation",
+              "url": "https://github.com/retromcorg/JServerInformation",
+              "description": "Provides essential API endpoints through JWebAPI.",
+              "tags": "api endpoints jwebapi server information json"
+            },
+            {
+              "title": "StatsBridge",
+              "url": "https://github.com/retromcorg/StatsBridge",
+              "description": "Stat API bridge plugin for Beta 1.7.3.",
+              "tags": "stats api bridge statistics"
+            },
+            {
+              "title": "minecraft-prometheus-exporter",
+              "url": "https://github.com/retromcorg/minecraft-prometheus-exporter",
+              "description": "Bukkit plugin that exports server stats to Prometheus (fork).",
+              "tags": "prometheus grafana metrics exporter monitoring"
+            }
+          ]
+        },
+        {
+          "title": "Developer tools",
+          "links": [
+            {
+              "title": "Poseidon-Plugin-Template",
+              "url": "https://github.com/retromcorg/Poseidon-Plugin-Template",
+              "description": "Maven template for Beta 1.7.3 plugins. Start new Poseidon plugins here.",
+              "tags": "template maven starter project new plugin develop"
+            },
+            {
+              "title": "PoseidonCompat",
+              "url": "https://github.com/retromcorg/PoseidonCompat",
+              "description": "Dummy plugin carrying libraries and shims (such as JSON Simple) for plugins migrating to Poseidon V2.",
+              "badge": "V2",
+              "badgeType": "rc",
+              "tags": "compat shims libraries json simple v2 migrate"
+            },
+            {
+              "title": "RetroBridge",
+              "url": "https://github.com/retromcorg/RetroBridge",
+              "description": "Compatibility layer for economy, permissions, GeoIP, Vanish and more.",
+              "tags": "retrobridge economy permissions geoip vanish compatibility layer"
+            },
+            {
+              "title": "Lazy-Transfer",
+              "url": "https://github.com/retromcorg/Lazy-Transfer",
+              "description": "Poseidon plugin that transfers player data for plugins that lack UUID support.",
+              "tags": "uuid migration transfer player data lazy"
+            }
+          ]
+        },
+        {
+          "title": "More plugins & archives",
+          "links": [
+            {
+              "title": "All retromcorg repositories",
+              "url": "https://github.com/orgs/retromcorg/repositories?type=all",
+              "description": "The full list: 50+ repos including many small plugins not shown here.",
+              "tags": "retromcorg organization repositories all github"
+            },
+            {
+              "title": "OldSchoolMinecraft on GitHub",
+              "url": "https://github.com/OldSchoolMinecraft",
+              "description": "Open-source plugins and software from the Old School Minecraft server.",
+              "tags": "old school minecraft oldschoolminecraft plugins open source auth"
+            },
+            {
+              "title": "Bukkit-era download archive",
+              "url": "https://pldm.ml/Minecraft/",
+              "description": "Big dump of old Minecraft servers, Bukkit and plugins. Its uploader only scanned it with ClamAV, so inspect anything before running it.",
+              "badge": "Caution",
+              "badgeType": "warn",
+              "host": "pldm.ml/Minecraft",
+              "tags": "bukkit archive old plugins dump download craftbukkit"
+            },
+            {
+              "title": "r/TheBukkitArchive",
+              "url": "https://www.reddit.com/r/TheBukkitArchive/",
+              "description": "Subreddit sharing archived Bukkit-era plugins and servers.",
+              "host": "reddit.com/r/TheBukkitArchive",
+              "tags": "reddit bukkit archive subreddit community plugins"
+            }
+          ]
+        }
+      ],
+      "note": "**Compatibility:** plugins built for the original 2011 CraftBukkit often load on Poseidon, but not always, because Poseidon's API differs. Test every jar on a local server first, and only download jars from sources you trust."
+    },
+    {
+      "id": "servers",
+      "title": "Servers & trackers",
+      "icon": "compass",
+      "description": "Find people to play with and see who is online right now. Player counts on the featured servers refresh live when the data source is reachable.",
+      "groups": [
+        {
+          "title": "Trackers & server lists",
+          "links": [
+            {
+              "title": "Live b1.7.3 server browser",
+              "url": "servers.html",
+              "description": "Servers tracked by the Legacy Tracker, sorted by players, with player lists and copy-address buttons.",
+              "badge": "Live",
+              "badgeType": "live",
+              "internal": true,
+              "tags": "live server browser list b1.7.3 betacraft players online copy address"
+            },
+            {
+              "title": "Legacy Tracker",
+              "url": "https://servers.legacyminecraft.com/",
+              "description": "Player counts, history graphs and player lookups across legacy Minecraft servers.",
+              "badge": "Active",
+              "badgeType": "live",
+              "tags": "legacy tracker players history graphs lookup statistics"
+            },
+            {
+              "title": "Legacy Tracker (legacytracker.xyz)",
+              "url": "https://legacytracker.xyz/",
+              "description": "A second public instance of the same tracker.",
+              "tags": "legacy tracker mirror instance"
+            },
+            {
+              "title": "legacytracker (source)",
+              "url": "https://github.com/retromcorg/legacytracker",
+              "description": "Node.js tracker with web UI, graphs and history that you can self-host. Fork of lilacbyte/legacytracker.",
+              "tags": "legacytracker source nodejs self host tracker github"
+            },
+            {
+              "title": "Betacraft server list",
+              "url": "https://betacraft.uk/serverlist",
+              "description": "The Betacraft launcher's list, Classic through Release. Server owners apply for verification through Discord or Bluesky.",
+              "host": "betacraft.uk/serverlist",
+              "tags": "betacraft server list verified launcher"
+            },
+            {
+              "title": "Legacy Tracker server API",
+              "url": "https://servers.api.legacyminecraft.com/api/v1/getServers?type=all&icons=true",
+              "description": "Public JSON feed of tracked servers, with icons. It powers this site's live browser. `getServer` returns one server by IP and port.",
+              "tags": "legacy tracker api json server list feed developers getservers getserver"
+            },
+            {
+              "title": "Betacraft server list API",
+              "url": "https://api.betacraft.uk/v2/server_list",
+              "description": "Public JSON feed behind the Betacraft launcher's list, with more servers than the tracker covers.",
+              "host": "api.betacraft.uk/v2/server_list",
+              "tags": "betacraft api json server list feed developers"
+            },
+            {
+              "title": "Minecraft-MP",
+              "url": "https://minecraft-mp.com/",
+              "description": "General server directory. It tracks thousands of servers, including BetaMC.",
+              "tags": "minecraft-mp server list vote directory"
+            }
+          ]
+        },
+        {
+          "title": "Featured servers",
+          "links": [
+            {
+              "title": "RetroMC",
+              "url": "https://www.retromc.org/",
+              "description": "Survival PvE since 2014 with no map resets. Its development group maintains Project Poseidon.",
+              "address": "mc.retromc.org",
+              "links": [
+                {
+                  "label": "Wiki",
+                  "url": "https://wiki.retromc.org/Main_Page"
+                },
+                {
+                  "label": "World map",
+                  "url": "https://world.retromc.org/"
+                },
+                {
+                  "label": "Discord",
+                  "url": "https://discord.retromc.org/"
+                }
+              ],
+              "tags": "retromc survival pve poseidon since 2014 no map reset"
+            },
+            {
+              "title": "BetaMC",
+              "url": "https://betamc.org/",
+              "description": "A \"true and real\" Beta 1.7.3 server with economy, towns, PvP and Hunger Games.",
+              "address": "betamc.org",
+              "links": [
+                {
+                  "label": "Wiki",
+                  "url": "https://wiki.betamc.org/"
+                },
+                {
+                  "label": "Stats",
+                  "url": "https://stats.betamc.org/"
+                },
+                {
+                  "label": "Discord",
+                  "url": "https://discord.gg/Kkd4Fqs97t"
+                }
+              ],
+              "tags": "betamc economy towns pvp hunger games"
+            },
+            {
+              "title": "Old School Minecraft",
+              "url": "https://os-mc.net/",
+              "description": "Community server with custom plugins and its own standalone authentication system.",
+              "address": "os-mc.net",
+              "links": [
+                {
+                  "label": "Open-source plugins",
+                  "url": "https://github.com/OldSchoolMinecraft"
+                }
+              ],
+              "tags": "old school minecraft osm custom plugins authentication vanilla"
+            },
+            {
+              "title": "Betacraft Server",
+              "url": "https://betacraft.uk/",
+              "description": "Survival with staff-controlled land claims, a Skylands dimension and barter-only trade.",
+              "address": "betacraft.uk",
+              "links": [
+                {
+                  "label": "3D map",
+                  "url": "https://map.betacraft.uk/"
+                }
+              ],
+              "tags": "betacraft server survival freebuild skylands barter"
+            },
+            {
+              "title": "Modern Beta",
+              "url": "https://modernbeta.org/",
+              "description": "A recreation of Beta 1.7.3 inside modern Minecraft, open to Java 1.20+ and Bedrock players.",
+              "address": "beta.modernbeta.org:25577",
+              "tags": "modern beta recreation bedrock java cross platform crossplay"
+            },
+            {
+              "title": "Simply Beta",
+              "url": "https://simplybeta.top/",
+              "description": "Small Beta 1.7.3 survival server running Poseidon.",
+              "address": "simplybeta.top",
+              "tags": "simply beta survival small poseidon"
+            },
+            {
+              "title": "Sweetwater",
+              "description": "Custom plugins including Hunger Games, Spleef and casinos.",
+              "address": "sweetwaterbeta.us",
+              "tags": "sweetwater hunger games spleef casino custom plugins"
+            },
+            {
+              "title": "AlphaAnarchy",
+              "url": "https://www.alphaanarchy.org/",
+              "description": "Anarchy server with no rules and no map resets.",
+              "address": "alphaanarchy.org",
+              "tags": "alphaanarchy anarchy no rules map reset"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "launchers",
+      "title": "Launchers & clients",
+      "icon": "play",
+      "description": "The official launcher handles Beta poorly. Beta Evolutions is the main pick here; the rest are alternatives that fix crashes, skins, sound and login, and some let modern clients join old servers.",
+      "links": [
+        {
+          "title": "Beta Evolutions",
+          "url": "https://evolutions.retromc.org/",
+          "description": "RetroMC's Beta 1.7.3 launcher and client. Start here: downloads and setup are on its site.",
+          "badge": "Main pick",
+          "badgeType": "live",
+          "featured": true,
+          "tags": "beta evolutions evolutions launcher client retromc main recommended download play"
+        },
+        {
+          "title": "Betacraft Launcher",
+          "url": "https://betacraft.uk/downloads",
+          "description": "Launcher for every Pre-Classic to 1.5.2 version, with fixes for crashes, skins and sound plus a built-in server list.",
+          "badge": "Active",
+          "badgeType": "live",
+          "host": "betacraft.uk/downloads",
+          "tags": "betacraft launcher download play old versions skins sound"
+        },
+        {
+          "title": "Betacraft Launcher (source)",
+          "url": "https://github.com/betacraftuk/betacraft-launcher",
+          "description": "GPL-3.0 source and issue tracker. Windows, Linux and macOS.",
+          "tags": "betacraft launcher source github gpl issues"
+        },
+        {
+          "title": "Prism Launcher",
+          "url": "https://prismlauncher.org/",
+          "description": "Open-source multi-instance launcher. Each instance has its own settings and mods, so it suits Babric setups.",
+          "tags": "prism launcher instances multimc fork mods"
+        },
+        {
+          "title": "MultiMC",
+          "url": "https://multimc.org/",
+          "description": "Classic multi-instance launcher. Several Beta servers recommend it alongside the Betacraft launcher.",
+          "tags": "multimc launcher instances beta evolutions"
+        },
+        {
+          "title": "Babric Prism instance",
+          "url": "https://github.com/babric/prism-instance",
+          "description": "Prism/MultiMC instance for running Beta 1.7.3 with the Babric loader.",
+          "tags": "babric prism instance template fabric beta"
+        },
+        {
+          "title": "ViaProxy",
+          "url": "https://github.com/ViaVersion/ViaProxy",
+          "description": "Standalone proxy that lets newer clients join servers from Classic, Alpha, Beta and Release versions.",
+          "tags": "viaproxy proxy modern clients join old servers viaversion"
+        },
+        {
+          "title": "Release2Beta",
+          "url": "https://github.com/DirtPowered/Release2Beta",
+          "description": "Proxy and Bukkit plugin that lets 1.12.2+ clients join beta servers. Poseidon has built-in IP forwarding support for it.",
+          "tags": "release2beta proxy bukkit plugin 1.12.2 modern clients"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "World & server tools",
+      "icon": "bench",
+      "description": "Beta worlds use the old McRegion (`.mcr`) format. Many modern tools only read Anvil (`.mca`), so convert first.",
+      "links": [
+        {
+          "title": "NBTExplorer",
+          "url": "https://github.com/jaquadro/NBTExplorer",
+          "description": "Edit `level.dat` and other NBT data. Lists support for `.mcr` and `.mca` region files.",
+          "tags": "nbt explorer edit level.dat region mcr mca inventory"
+        },
+        {
+          "title": "McRegion-Anvil-Converter",
+          "url": "https://github.com/retromcorg/McRegion-Anvil-Converter",
+          "description": "Multithreaded McRegion to Anvil converter. About 19x faster on 32 threads in RetroMC's benchmark.",
+          "tags": "mcregion anvil converter convert upgrade world mcr mca"
+        },
+        {
+          "title": "BlueMap for Beta 1.7.3",
+          "url": "https://github.com/retromcorg/BlueMap",
+          "description": "A BlueMap build for Beta 1.7.3 to publish a 3D web map of your world.",
+          "tags": "bluemap 3d web map render dynmap"
+        },
+        {
+          "title": "Minecraft Overviewer",
+          "url": "https://overviewer.org/",
+          "description": "Renders worlds into browsable web maps. RetroMC converts worlds to Anvil first so Overviewer can read them.",
+          "tags": "overviewer map render web tiles"
+        },
+        {
+          "title": "MCA Selector",
+          "url": "https://github.com/Querz/mcaselector",
+          "description": "Visually select, export or delete chunks and regions. Supports Anvil worlds (1.2.1+), so convert Beta worlds first.",
+          "tags": "mca selector chunks regions delete export trim prune"
+        },
+        {
+          "title": "legacytracker",
+          "url": "https://github.com/retromcorg/legacytracker",
+          "description": "Run your own tracker for a network of legacy servers.",
+          "tags": "tracker self host legacytracker node"
+        }
+      ]
+    },
+    {
+      "id": "modding",
+      "title": "Modding",
+      "icon": "potion",
+      "description": "Client-side and full-game mods for Beta 1.7.3, mostly built on Babric, a Fabric loader for the Beta era.",
+      "links": [
+        {
+          "title": "Babric",
+          "url": "https://babric.github.io/",
+          "description": "Brings Fabric to Beta Minecraft: installer, barn mappings and a b1.7.3 intermediary.",
+          "tags": "babric fabric loader mappings barn intermediary installer"
+        },
+        {
+          "title": "Babric on GitHub",
+          "url": "https://github.com/babric",
+          "description": "Loader, Loom plugin, installer, stitch, mappings and the Prism instance.",
+          "tags": "babric github loader loom plugin installer lwjgl fork"
+        },
+        {
+          "title": "StationAPI",
+          "url": "https://github.com/ModificationStation/StationAPI",
+          "description": "General-purpose API for Fabric Loader mods on legacy versions. The develop branch targets Beta 1.7.3 on Babric.",
+          "tags": "stationapi api fabric legacy mods blocks items"
+        },
+        {
+          "title": "StationAPI on Modrinth",
+          "url": "https://modrinth.com/mod/stationapi",
+          "description": "Latest StationAPI releases to download.",
+          "host": "modrinth.com/mod/stationapi",
+          "tags": "stationapi modrinth download release"
+        },
+        {
+          "title": "StationAPI wiki",
+          "url": "https://github.com/ModificationStation/StationAPI/wiki",
+          "description": "Guides for making mods with StationAPI.",
+          "tags": "stationapi wiki docs guide make mods"
+        },
+        {
+          "title": "OptiBabric",
+          "url": "https://github.com/mineLdiver/OptiBabric",
+          "description": "Run OptiFine on Babric. Add the OptiFine zip to your instance's mods, never into minecraft.jar.",
+          "tags": "optifine optibabric performance graphics"
+        },
+        {
+          "title": "Better than Adventure",
+          "url": "https://github.com/Better-than-Adventure",
+          "description": "Heavily modified Beta 1.7.3 with its own launcher, release API and mod ecosystem. BTA mods target BTA, not plain b1.7.3.",
+          "tags": "better than adventure bta fork overhaul launcher"
+        },
+        {
+          "title": "Beta Evolutions 2 mod template",
+          "url": "https://github.com/retromcorg/Beta-Evolutions-2-Mod-Template",
+          "description": "ModLoader mod example for Beta Evolutions 2.",
+          "tags": "modloader beta evolutions template example mod"
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Docs & community",
+      "icon": "book",
+      "description": "Read the manuals, then ask the people who run these projects.",
+      "groups": [
+        {
+          "title": "Documentation",
+          "links": [
+            {
+              "title": "RetroMC Wiki: Project Poseidon",
+              "url": "https://wiki.retromc.org/Project_Poseidon",
+              "description": "Features, downloads, source and contributors for Poseidon.",
+              "tags": "retromc wiki poseidon features contributors docs"
+            },
+            {
+              "title": "Setting up a Poseidon plugin",
+              "url": "https://wiki.retromc.org/Setting_up_a_Project_Poseidon_Plugin",
+              "description": "Step by step: Maven project, plugin.yml, main class, build and install.",
+              "tags": "plugin development setup maven tutorial hello world"
+            },
+            {
+              "title": "Implementing Poseidon in production",
+              "url": "https://github.com/retromcorg/Project-Poseidon/wiki/Implementing-Project-Poseidon-In-Production",
+              "description": "Official wiki guide to deploying Poseidon on a live server.",
+              "tags": "production deploy poseidon wiki configuration advice"
+            },
+            {
+              "title": "Beta 1.7.3 technical documentation",
+              "url": "https://tangled.org/nayrid.com/mcb173doc",
+              "description": "Technical write-up of Beta 1.7.3 internals, handy for anyone building tools or servers.",
+              "host": "tangled.org/nayrid.com/mcb173doc",
+              "tags": "technical documentation protocol format nbt packets internals"
+            }
+          ]
+        },
+        {
+          "title": "Discord",
+          "links": [
+            {
+              "title": "Legacy Minecraft (Poseidon)",
+              "url": "https://discord.gg/FwKg676",
+              "description": "Support and development chat for Project Poseidon.",
+              "host": "discord.gg/FwKg676",
+              "tags": "discord poseidon legacy minecraft support development"
+            },
+            {
+              "title": "Betacraft",
+              "url": "https://discord.gg/6Z9hbHZ49Y",
+              "description": "Launcher support, Uberbukkit bug reports and the Betacraft server.",
+              "host": "discord.gg/6Z9hbHZ49Y",
+              "tags": "discord betacraft launcher uberbukkit"
+            },
+            {
+              "title": "RetroMC",
+              "url": "https://discord.retromc.org/",
+              "description": "Community Discord of the RetroMC server.",
+              "tags": "discord retromc server community"
+            },
+            {
+              "title": "BetaMC",
+              "url": "https://discord.gg/Kkd4Fqs97t",
+              "description": "Community Discord of the BetaMC server.",
+              "host": "discord.gg/Kkd4Fqs97t",
+              "tags": "discord betamc server community"
+            },
+            {
+              "title": "Omniarchive",
+              "url": "https://discord.com/servers/omniarchive-361634042317111296",
+              "description": "Version preservation community and archive hunters. Join from Discord's server directory page.",
+              "host": "discord.com/servers/omniarchive",
+              "tags": "discord omniarchive preservation versions"
+            }
+          ]
+        },
+        {
+          "title": "GitHub organisations",
+          "links": [
+            {
+              "title": "retromcorg",
+              "url": "https://github.com/retromcorg",
+              "description": "RetroMC Development Group: Poseidon, dozens of plugins and tools. Website: retromc.org.",
+              "tags": "retromcorg github organization poseidon plugins"
+            },
+            {
+              "title": "legacyminecraft",
+              "url": "https://github.com/legacyminecraft",
+              "description": "Home of Project Poseidon V2 and BungeePoseidon.",
+              "tags": "legacyminecraft github organization poseidon v2 bungee"
+            },
+            {
+              "title": "babric",
+              "url": "https://github.com/babric",
+              "description": "Fabric for Beta: loader, mappings and tooling.",
+              "tags": "babric github organization fabric beta"
+            },
+            {
+              "title": "betacraftuk",
+              "url": "https://github.com/betacraftuk",
+              "description": "Betacraft launcher and related projects.",
+              "tags": "betacraftuk github organization launcher"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
