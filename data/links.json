@@ -521,11 +521,19 @@
                   "url": "https://world.retromc.org/"
                 },
                 {
+                  "label": "Stats",
+                  "url": "https://statistics.retromc.org/"
+                },
+                {
                   "label": "Discord",
                   "url": "https://discord.retromc.org/"
+                },
+                {
+                  "label": "Open-source plugins",
+                  "url": "https://github.com/retromcorg"
                 }
               ],
-              "tags": "retromc survival pve poseidon since 2014 no map reset"
+              "tags": "retromc survival pve poseidon since 2014 no map reset open source plugins github"
             },
             {
               "title": "BetaMC",
@@ -544,9 +552,13 @@
                 {
                   "label": "Discord",
                   "url": "https://discord.gg/Kkd4Fqs97t"
+                },
+                {
+                  "label": "Open-source plugins",
+                  "url": "https://github.com/betamcserver"
                 }
               ],
-              "tags": "betamc economy towns pvp hunger games"
+              "tags": "betamc economy towns pvp hunger games open source plugins github"
             },
             {
               "title": "Old School Minecraft",
@@ -555,11 +567,23 @@
               "address": "os-mc.net",
               "links": [
                 {
+                  "label": "Wiki",
+                  "url": "https://wiki.os-mc.net/"
+                },
+                {
+                  "label": "Worldstream",
+                  "url": "https://os-mc.net/worldstream"
+                },
+                {
+                  "label": "Discord",
+                  "url": "https://discord.com/invite/J3vKjD3"
+                },
+                {
                   "label": "Open-source plugins",
                   "url": "https://github.com/OldSchoolMinecraft"
                 }
               ],
-              "tags": "old school minecraft osm custom plugins authentication vanilla"
+              "tags": "old school minecraft osm custom plugins authentication vanilla wiki worldstream"
             },
             {
               "title": "Betacraft Server",
@@ -573,13 +597,6 @@
                 }
               ],
               "tags": "betacraft server survival freebuild skylands barter"
-            },
-            {
-              "title": "Modern Beta",
-              "url": "https://modernbeta.org/",
-              "description": "A recreation of Beta 1.7.3 inside modern Minecraft, open to Java 1.20+ and Bedrock players.",
-              "address": "beta.modernbeta.org:25577",
-              "tags": "modern beta recreation bedrock java cross platform crossplay"
             },
             {
               "title": "Simply Beta",
@@ -600,6 +617,13 @@
               "description": "Anarchy server with no rules and no map resets.",
               "address": "alphaanarchy.org",
               "tags": "alphaanarchy anarchy no rules map reset"
+            },
+            {
+              "title": "AlphaPlace!",
+              "url": "https://alphaplace.net/",
+              "description": "A Minecraft Alpha server running Alpha 1.2.6.",
+              "address": "alphaplace.net",
+              "tags": "alphaplace alpha place a1.2.6 alpha server"
             },
             {
               "title": "TEST SERVER (ignore)",
