@@ -447,9 +447,9 @@
           "title": "Trackers & server lists",
           "links": [
             {
-              "title": "Live b1.7.3 server browser",
+              "title": "Live server browser",
               "url": "servers.html",
-              "description": "Servers tracked by the Legacy Tracker, sorted by players, with player lists and copy-address buttons.",
+              "description": "Servers tracked by the Legacy Tracker. Filter and sort by version or players, see who is online, and copy addresses.",
               "badge": "Live",
               "badgeType": "live",
               "internal": true,
