@@ -1,0 +1,49 @@
+name: Deploy
+
+on:
+  workflow_run:
+    workflows: [Validate]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Update the site
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_branch == 'main' &&
+      github.event.workflow_run.head_repository.full_name == github.repository &&
+      vars.DEPLOY_ENABLED == 'true'
+    runs-on:
+      group: retromc-runners
+    timeout-minutes: 10
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Copy the links and rebuild the page
+        env:
+          SITE_DIR: ${{ vars.SITE_DIR }}
+        run: |
+          set -euo pipefail
+          [ -n "${SITE_DIR:-}" ] || { echo "::error::SITE_DIR is not set"; exit 1; }
+          [ -f "$SITE_DIR/scripts/build.mjs" ] || { echo "::error::$SITE_DIR does not hold the site project (scripts/build.mjs not found)"; exit 1; }
+
+          cp data/links.json "$SITE_DIR/data/links.json"
+          cd "$SITE_DIR"
+          node scripts/build.mjs
