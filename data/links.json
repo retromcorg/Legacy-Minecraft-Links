@@ -394,10 +394,10 @@
               "tags": "retrobridge economy permissions geoip vanish compatibility layer"
             },
             {
-              "title": "Lazy-Transfer",
-              "url": "https://github.com/retromcorg/Lazy-Transfer",
-              "description": "Poseidon plugin that transfers player data for plugins that lack UUID support.",
-              "tags": "uuid migration transfer player data lazy"
+              "title": "kotlin-libs",
+              "url": "https://github.com/betamcserver/kotlin-libs",
+              "description": "BetaMC's plugin that provides various Kotlin libraries at runtime.",
+              "tags": "kotlin libs libraries runtime library dependency betamc"
             }
           ]
         },
@@ -464,12 +464,6 @@
               "tags": "legacy tracker players history graphs lookup statistics"
             },
             {
-              "title": "Legacy Tracker (legacytracker.xyz)",
-              "url": "https://legacytracker.xyz/",
-              "description": "A second public instance of the same tracker.",
-              "tags": "legacy tracker mirror instance"
-            },
-            {
               "title": "legacytracker (source)",
               "url": "https://github.com/retromcorg/legacytracker",
               "description": "Node.js tracker with web UI, graphs and history that you can self-host. Fork of lilacbyte/legacytracker.",
@@ -494,12 +488,6 @@
               "description": "Public JSON feed behind the Betacraft launcher's list, with more servers than the tracker covers.",
               "host": "api.betacraft.uk/v2/server_list",
               "tags": "betacraft api json server list feed developers"
-            },
-            {
-              "title": "Minecraft-MP",
-              "url": "https://minecraft-mp.com/",
-              "description": "General server directory. It tracks thousands of servers, including BetaMC.",
-              "tags": "minecraft-mp server list vote directory"
             }
           ]
         },
