@@ -736,6 +736,13 @@
       "description": "Client-side and full-game mods for Beta 1.7.3, mostly built on Babric, a Fabric loader for the Beta era.",
       "links": [
         {
+          "title": "Mods for Beta 1.7.3",
+          "url": "mods.html",
+          "description": "Babric and StationAPI mods, libraries, skin fixes and interface tweaks, on their own page.",
+          "internal": true,
+          "tags": "mods babric stationapi list page client fabric download"
+        },
+        {
           "title": "Babric",
           "url": "https://babric.github.io/",
           "description": "Brings Fabric to Beta Minecraft: installer, barn mappings and a b1.7.3 intermediary.",

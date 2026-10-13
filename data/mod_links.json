@@ -1,0 +1,447 @@
+{
+  "sections": [
+    {
+      "id": "start",
+      "title": "Getting started",
+      "icon": "play",
+      "description": "Most Beta 1.7.3 mods run on a Fabric-style loader. Set one up first, then drop mod jars into the `mods` folder of your instance.",
+      "note": "Server plugins, such as Poseidon plugins, are in the Plugins section of the hub. This page is for mods that run in the game client, plus a few that also need installing on a server.",
+      "links": [
+        {
+          "title": "Babric",
+          "url": "https://babric.github.io/",
+          "description": "Fabric for Beta Minecraft: installer, barn mappings and a b1.7.3 intermediary. The loader most mods on this page expect.",
+          "tags": "babric fabric loader installer mappings barn"
+        },
+        {
+          "title": "Babric Prism instance",
+          "url": "https://github.com/babric/prism-instance",
+          "description": "A ready-made Prism Launcher instance with Babric set up, the quickest way to a modded Beta 1.7.3 install.",
+          "tags": "babric prism launcher instance install setup"
+        },
+        {
+          "title": "Browse Babric mods on Modrinth",
+          "url": "https://modrinth.com/discover/mods?v=b1.7.3&g=categories:babric",
+          "description": "Every Beta 1.7.3 mod on Modrinth that is tagged Babric, with download counts and filters.",
+          "host": "modrinth.com",
+          "tags": "modrinth browse search download babric mods list"
+        },
+        {
+          "title": "Beta Evolutions 2",
+          "url": "https://evolutions.retromc.org/",
+          "description": "RetroMC's Beta 1.7.3 client, with its own ModLoader-style mod loader. Mods not made for the Beta Evolutions 2 mod loader may not work, so check what a mod was built for.",
+          "badge": "Check mods",
+          "badgeType": "warn",
+          "host": "evolutions.retromc.org",
+          "tags": "beta evolutions 2 modloader mod loader retromc client launcher"
+        },
+        {
+          "title": "Ornithe",
+          "url": "https://ornithemc.net/",
+          "description": "Another loader and toolchain for old versions, Beta 1.7.3 included. Some mods here list Ornithe as well as Babric.",
+          "tags": "ornithe loader toolchain fabric legacy"
+        }
+      ]
+    },
+    {
+      "id": "libraries",
+      "title": "Libraries & mod menus",
+      "icon": "bench",
+      "description": "Many mods need one of these installed alongside them. Check each mod's page for what it requires.",
+      "links": [
+        {
+          "title": "StationAPI",
+          "url": "https://modrinth.com/mod/stationapi",
+          "description": "General-purpose API for Fabric Loader mods on legacy versions. A huge number of Beta 1.7.3 mods depend on it.",
+          "host": "modrinth.com/mod/stationapi",
+          "tags": "stationapi api library required dependency station"
+        },
+        {
+          "title": "Glass Config API",
+          "url": "https://modrinth.com/mod/glass-config-api",
+          "description": "Easy, synced mod configs for b1.7.3, with optional mod menu support.",
+          "host": "modrinth.com/mod/glass-config-api",
+          "tags": "config api library settings glass"
+        },
+        {
+          "title": "Glass Networking",
+          "url": "https://modrinth.com/mod/glass-networking",
+          "description": "A simple custom packet handler that makes mod networking much easier.",
+          "host": "modrinth.com/mod/glass-networking",
+          "tags": "networking packets library glass multiplayer"
+        },
+        {
+          "title": "Mod Menu Babric",
+          "url": "https://modrinth.com/mod/modmenu-babric",
+          "description": "A mod list screen for the Babric toolchain, so you can see and configure what is installed.",
+          "host": "modrinth.com/mod/modmenu-babric",
+          "tags": "modmenu mod menu list babric settings"
+        },
+        {
+          "title": "Apron",
+          "url": "https://modrinth.com/mod/apron",
+          "description": "A compatibility layer that loads older, non-Fabric mods on Fabric.",
+          "host": "modrinth.com/mod/apron",
+          "tags": "apron compatibility legacy modloader remap load old mods"
+        }
+      ]
+    },
+    {
+      "id": "fixes",
+      "title": "Performance & fixes",
+      "icon": "torch",
+      "description": "Make the game run better, bring back working skins and logins, and smooth over old rough edges.",
+      "links": [
+        {
+          "title": "SmoothBeta",
+          "url": "https://modrinth.com/mod/smoothbeta",
+          "description": "A collection of tweaks and optimisations that improve Beta 1.7.3 performance.",
+          "host": "modrinth.com/mod/smoothbeta",
+          "tags": "performance fps optimization lag speed smooth"
+        },
+        {
+          "title": "UniTweaks",
+          "url": "https://modrinth.com/mod/unitweaks",
+          "description": "An all-in-one fix and tweak mod for Beta 1.7.3.",
+          "host": "modrinth.com/mod/unitweaks",
+          "tags": "tweaks fixes optimization config unitweaks"
+        },
+        {
+          "title": "MojangFix StationAPI Edition",
+          "url": "https://modrinth.com/mod/mojangfix-stationapi-edition",
+          "description": "Fixes skins, authentication and more, with options to turn individual fixes on or off.",
+          "host": "modrinth.com/mod/mojangfix-stationapi-edition",
+          "tags": "skins authentication login fix mojangfix"
+        },
+        {
+          "title": "RetroAuth",
+          "url": "https://modrinth.com/mod/retroauth",
+          "description": "Fixes skins and authentication on Beta 1.7.3, for both Babric and Ornithe.",
+          "host": "modrinth.com/mod/retroauth",
+          "tags": "skins authentication login fix retroauth ornithe"
+        },
+        {
+          "title": "Agenta",
+          "url": "https://modrinth.com/mod/agenta",
+          "description": "Skin and auth server fix for legacy versions that runs as a Java agent, so it also works without a mod loader.",
+          "host": "modrinth.com/mod/agenta",
+          "tags": "skins authentication java agent fix server"
+        },
+        {
+          "title": "Font Fixer",
+          "url": "https://modrinth.com/mod/font-fixer",
+          "description": "Fixes the font renderer in legacy Minecraft.",
+          "host": "modrinth.com/mod/font-fixer",
+          "tags": "font text render fix unicode"
+        },
+        {
+          "title": "Gambac",
+          "url": "https://modrinth.com/mod/gambac",
+          "description": "Removes AWT from the game and fixes inverted colours on Apple Silicon Macs.",
+          "host": "modrinth.com/mod/gambac",
+          "tags": "apple silicon m1 mac macos awt colors fix"
+        },
+        {
+          "title": "OptiBabric",
+          "url": "https://github.com/mineLdiver/OptiBabric",
+          "description": "Run OptiFine on Babric. Add the OptiFine zip to your instance's mods, never into minecraft.jar.",
+          "tags": "optifine optibabric performance graphics shaders"
+        }
+      ]
+    },
+    {
+      "id": "interface",
+      "title": "Interface & quality of life",
+      "icon": "compass",
+      "description": "Client-side extras that bring comforts from later versions to Beta 1.7.3.",
+      "links": [
+        {
+          "title": "InventoryTweaks StationAPI",
+          "url": "https://modrinth.com/mod/inventorytweaks",
+          "description": "Modern inventory mouse controls, such as dragging to spread a stack of items.",
+          "host": "modrinth.com/mod/inventorytweaks",
+          "tags": "inventory tweaks drag click stack sort"
+        },
+        {
+          "title": "HudTweaks StationAPI",
+          "url": "https://modrinth.com/mod/hudtweaks-stationapi",
+          "description": "Scroll through the chat log, move the hotbar up and make other HUD adjustments.",
+          "host": "modrinth.com/mod/hudtweaks-stationapi",
+          "tags": "hud chat hotbar scroll interface"
+        },
+        {
+          "title": "BetterF3 StationAPI",
+          "url": "https://modrinth.com/mod/betterf3-stationapi",
+          "description": "A port of BetterF3: a clearer, more readable debug screen.",
+          "host": "modrinth.com/mod/betterf3-stationapi",
+          "tags": "f3 debug screen coordinates betterf3 info"
+        },
+        {
+          "title": "Rei's Minimap b1.7.3 Fabric",
+          "url": "https://modrinth.com/mod/reis-minimap-ornithe-port",
+          "description": "A port of Rei's Minimap for Ornithe and StationAPI.",
+          "host": "modrinth.com/mod/reis-minimap-ornithe-port",
+          "tags": "minimap map reis radar waypoints"
+        },
+        {
+          "title": "Natos Atlas",
+          "url": "https://modrinth.com/mod/natosatlas",
+          "description": "World map and minimap for Beta 1.7.3 and Better than Adventure.",
+          "host": "modrinth.com/mod/natosatlas",
+          "tags": "map minimap world atlas natos"
+        },
+        {
+          "title": "Freecam StationAPI",
+          "url": "https://modrinth.com/mod/freecam-stationapi",
+          "description": "Adds a free-flying camera that detaches from your player.",
+          "host": "modrinth.com/mod/freecam-stationapi",
+          "tags": "freecam camera spectate builder screenshot"
+        },
+        {
+          "title": "FOV Slider",
+          "url": "https://modrinth.com/mod/fov-slider",
+          "description": "Adds a field of view slider to the options screen.",
+          "host": "modrinth.com/mod/fov-slider",
+          "tags": "fov field of view slider options camera"
+        },
+        {
+          "title": "Third Person Fix Babric",
+          "url": "https://modrinth.com/mod/thirdpersonfix-babric",
+          "description": "Adds the third-person camera modes from modern Minecraft.",
+          "host": "modrinth.com/mod/thirdpersonfix-babric",
+          "tags": "third person camera f5 view"
+        },
+        {
+          "title": "Apple Slices",
+          "url": "https://modrinth.com/mod/apple-slices",
+          "description": "Shows how much hunger and health a food item will restore, like AppleSkin.",
+          "host": "modrinth.com/mod/apple-slices",
+          "tags": "food hunger health appleskin preview"
+        },
+        {
+          "title": "Visible Durability!",
+          "url": "https://modrinth.com/mod/visible-durability-t3ocorp",
+          "description": "Customisable durability tooltips for armour, tools and weapons.",
+          "host": "modrinth.com/mod/visible-durability-t3ocorp",
+          "tags": "durability tooltip armor tools weapons"
+        },
+        {
+          "title": "BetterScreenshots StationAPI",
+          "url": "https://modrinth.com/mod/betterscreenshots-stationapi",
+          "description": "Take isometric and custom-resolution screenshots.",
+          "host": "modrinth.com/mod/betterscreenshots-stationapi",
+          "tags": "screenshots isometric resolution photo"
+        }
+      ]
+    },
+    {
+      "id": "multiplayer",
+      "title": "Multiplayer & commands",
+      "icon": "heart",
+      "description": "Play with friends. Some of these must also be installed on the server, so check each mod's page.",
+      "links": [
+        {
+          "title": "RetroCommands",
+          "url": "https://modrinth.com/mod/retrocommands",
+          "description": "Chat commands for Beta 1.7.3 built on Fabric. They work in multiplayer, and there is an API for other mods.",
+          "host": "modrinth.com/mod/retrocommands",
+          "tags": "commands chat cheats api multiplayer"
+        },
+        {
+          "title": "BetaLAN StationAPI",
+          "url": "https://modrinth.com/mod/betalan-stationapi",
+          "description": "Open the single-player world you are in as a server your friends can join.",
+          "host": "modrinth.com/mod/betalan-stationapi",
+          "tags": "lan open to lan host single player friends server"
+        },
+        {
+          "title": "LegacyVoiceChat",
+          "url": "https://modrinth.com/mod/legacyvoicechat",
+          "description": "Proximity voice chat for legacy versions. Needed on both the client and the server.",
+          "host": "modrinth.com/mod/legacyvoicechat",
+          "tags": "voice chat proximity audio talk"
+        },
+        {
+          "title": "Beta TAB Player List",
+          "url": "https://modrinth.com/mod/beta-tab-list",
+          "description": "The TAB player list from later versions.",
+          "host": "modrinth.com/mod/beta-tab-list",
+          "tags": "tab player list online players"
+        },
+        {
+          "title": "Yeth's TPA",
+          "url": "https://modrinth.com/mod/yeths-tpa",
+          "description": "Teleport requests between players. Install it on the server only.",
+          "host": "modrinth.com/mod/yeths-tpa",
+          "tags": "tpa teleport request server commands"
+        },
+        {
+          "title": "CommandsSpy",
+          "url": "https://modrinth.com/mod/commandsspy",
+          "description": "Logs the commands that players and the console run. Install it on the server only.",
+          "host": "modrinth.com/mod/commandsspy",
+          "tags": "commands log spy server admin moderation"
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "title": "Creative & building",
+      "icon": "bench",
+      "description": "Item browsers, creative mode and editing tools for builders.",
+      "links": [
+        {
+          "title": "BH Creative",
+          "url": "https://modrinth.com/mod/bh-creative",
+          "description": "Creative mode for Beta 1.7.3.",
+          "host": "modrinth.com/mod/bh-creative",
+          "tags": "creative mode build fly items"
+        },
+        {
+          "title": "HowManyItems Fabric",
+          "url": "https://modrinth.com/mod/howmanyitems-fabric",
+          "description": "A GUI inventory editor and recipe viewer for Beta 1.7.3.",
+          "host": "modrinth.com/mod/howmanyitems-fabric",
+          "tags": "hmi items recipes inventory editor nei jei"
+        },
+        {
+          "title": "Always More Items",
+          "url": "https://modrinth.com/mod/always-more-items",
+          "description": "An inventory editor for b1.7.3 with a few extra systems, such as item rarity.",
+          "host": "modrinth.com/mod/always-more-items",
+          "tags": "ami items inventory editor rarity"
+        },
+        {
+          "title": "CreativeEditorWands StationAPI",
+          "url": "https://modrinth.com/mod/creativeeditorwands-stationapi",
+          "description": "WorldEdit-style editing with wooden tools when you turn it on.",
+          "host": "modrinth.com/mod/creativeeditorwands-stationapi",
+          "tags": "worldedit wand edit build select creative"
+        },
+        {
+          "title": "Spawn Eggs",
+          "url": "https://modrinth.com/mod/spawn-eggs",
+          "description": "Adds spawn eggs for any entity in the game.",
+          "host": "modrinth.com/mod/spawn-eggs",
+          "tags": "spawn eggs mobs entities creative"
+        }
+      ]
+    },
+    {
+      "id": "content",
+      "title": "Content & gameplay",
+      "icon": "potion",
+      "description": "Mods that add new things to do, from small worldgen tweaks to whole overhauls.",
+      "links": [
+        {
+          "title": "Better Than Wolves Legacy Unofficial",
+          "url": "https://modrinth.com/mod/better-than-wolves-legacy-unofficial",
+          "description": "The Better Than Wolves overhaul ported to StationAPI, with multiplayer support.",
+          "host": "modrinth.com/mod/better-than-wolves-legacy-unofficial",
+          "tags": "btw better than wolves overhaul hardcore technology"
+        },
+        {
+          "title": "Aether on Station API",
+          "url": "https://modrinth.com/mod/aether-stapi",
+          "description": "The Aether dimension, ported from the Risugami ModLoader original to Babric and StationAPI.",
+          "host": "modrinth.com/mod/aether-stapi",
+          "tags": "aether dimension sky adventure"
+        },
+        {
+          "title": "Tropicraft [StationAPI]",
+          "url": "https://modrinth.com/mod/tropicraft-stationapi",
+          "description": "A port of the Tropicraft mod, with tropical biomes, mobs and items.",
+          "host": "modrinth.com/mod/tropicraft-stationapi",
+          "tags": "tropicraft tropical biome island adventure"
+        },
+        {
+          "title": "BetterNetherBeta",
+          "url": "https://modrinth.com/mod/better-nether-beta",
+          "description": "Rebuilds the Nether with new biomes, materials, mobs and plants.",
+          "host": "modrinth.com/mod/better-nether-beta",
+          "tags": "nether biomes worldgen dimension"
+        },
+        {
+          "title": "New Frontier Craft",
+          "url": "https://modrinth.com/mod/new-frontier-craft",
+          "description": "A large content mod for old Minecraft with new mobs, equipment and world generation.",
+          "host": "modrinth.com/mod/new-frontier-craft",
+          "tags": "content adventure mobs equipment worldgen frontier"
+        },
+        {
+          "title": "Better World Options",
+          "url": "https://modrinth.com/mod/better-world-options",
+          "description": "Mixes classic world generation with modern features.",
+          "host": "modrinth.com/mod/better-world-options",
+          "tags": "world generation worldgen options create world"
+        },
+        {
+          "title": "Better than Adventure",
+          "url": "https://github.com/Better-than-Adventure",
+          "description": "A heavily modified Beta 1.7.3 with its own launcher and mod ecosystem. BTA mods target BTA, not plain b1.7.3.",
+          "tags": "better than adventure bta fork overhaul launcher"
+        }
+      ]
+    },
+    {
+      "id": "archives",
+      "title": "Mod archives",
+      "icon": "chest",
+      "description": "Preserved collections of older mods. Many were made for other loaders or edit the game jar directly, so check what each one needs before you install it.",
+      "links": [
+        {
+          "title": "Minecraft Beta 1.7.3 Mod Archive",
+          "url": "https://archive.org/details/minecraftbeta1.7.3modarchive",
+          "description": "A comprehensive collection of mods for Beta 1.7.3, kept on the Internet Archive.",
+          "host": "archive.org",
+          "tags": "archive internet archive old mods download collection preservation"
+        },
+        {
+          "title": "MC Archive: Beta 1.7.3 mods",
+          "url": "https://mcarchive.net/mods?gvsn=b1.7.3",
+          "description": "MC Archive's mod list across many versions, to include Beta 1.7.3.",
+          "host": "mcarchive.net",
+          "tags": "mcarchive archive old mods download search preservation"
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "title": "Making mods",
+      "icon": "book",
+      "description": "Start a mod of your own.",
+      "links": [
+        {
+          "title": "Babric example mod",
+          "url": "https://github.com/babric/babric-example-mod",
+          "description": "A small example project for building a mod on Babric.",
+          "tags": "babric example template starter mod project develop"
+        },
+        {
+          "title": "StationAPI wiki",
+          "url": "https://github.com/ModificationStation/StationAPI/wiki",
+          "description": "Guides for making mods with StationAPI.",
+          "tags": "stationapi wiki docs guide tutorial make mods"
+        },
+        {
+          "title": "StationAPI on GitHub",
+          "url": "https://github.com/ModificationStation/StationAPI",
+          "description": "Source code for StationAPI. The develop branch targets Beta 1.7.3 on Babric.",
+          "tags": "stationapi source code github api"
+        },
+        {
+          "title": "Babric on GitHub",
+          "url": "https://github.com/babric",
+          "description": "Loader, Loom plugin, installer, mappings and the Prism instance.",
+          "tags": "babric github loader loom plugin installer mappings"
+        },
+        {
+          "title": "Beta Evolutions 2 mod template",
+          "url": "https://github.com/retromcorg/Beta-Evolutions-2-Mod-Template",
+          "description": "ModLoader mod example for Beta Evolutions 2.",
+          "tags": "modloader beta evolutions template example mod"
+        }
+      ]
+    }
+  ]
+}
