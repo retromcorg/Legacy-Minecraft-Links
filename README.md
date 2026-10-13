@@ -1,6 +1,6 @@
 # Legacy Minecraft Links
 
-A community-maintained list of links for **Legacy Minecraft (Beta 1.7.3)**: server jars, plugins, trackers and server
+A community-maintained list of links for the **[Legacy Minecraft Site](https://legacyminecraft.com)**: server jars, plugins, trackers and server
 lists, launchers, world tools, modding resources and community hubs.
 
 Everything lives in two files. The Legacy Minecraft website is built from them, so a link added here shows up on the
