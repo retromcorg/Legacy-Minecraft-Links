@@ -1,7 +1,12 @@
 # Adding a link
 
-All the links on the site live in one file: [`data/links.json`](data/links.json). To add one, edit that file and open a
-pull request. You do not need to touch any HTML.
+All the links on the site live in two files with the same format. To add one, edit the right file and open a pull
+request. You do not need to touch any HTML.
+
+- [`data/links.json`](data/links.json): the hub (server jars, plugins, servers, launchers, tools, modding resources, docs
+  and community).
+- [`data/mod_links.json`](data/mod_links.json): the Mods page. Add mods, mod loaders and libraries here, and tools for
+  making mods. Server plugins go in `links.json`.
 
 ## What makes a good link
 
@@ -15,7 +20,7 @@ We will say no to links that are mostly advertising, and to server listings that
 
 ## How to add one
 
-1. Find the right section and group in `data/links.json`. Copy a neighbouring entry.
+1. Find the right section and group in the right file. Copy a neighbouring entry.
 2. Fill in your own values:
 
    ```json
@@ -29,7 +34,8 @@ We will say no to links that are mostly advertising, and to server listings that
    }
    ```
 
-3. Check it: `node scripts/validate-links.mjs`. It lists every problem with the exact entry and field.
+3. Check it: `node scripts/validate-links.mjs`. It checks both files and lists every problem with the exact entry and
+   field.
 4. Open a pull request and fill in the checklist.
 
 You can edit the file right in the GitHub web editor.
