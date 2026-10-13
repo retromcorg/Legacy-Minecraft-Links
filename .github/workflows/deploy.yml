@@ -36,7 +36,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Copy the links and rebuild the page
+      - name: Copy the link files and rebuild the pages
         env:
           SITE_DIR: ${{ vars.SITE_DIR }}
         run: |
@@ -45,5 +45,6 @@ jobs:
           [ -f "$SITE_DIR/scripts/build.mjs" ] || { echo "::error::$SITE_DIR does not hold the site project (scripts/build.mjs not found)"; exit 1; }
 
           cp data/links.json "$SITE_DIR/data/links.json"
+          cp data/mod_links.json "$SITE_DIR/data/mod_links.json"
           cd "$SITE_DIR"
           node scripts/build.mjs
