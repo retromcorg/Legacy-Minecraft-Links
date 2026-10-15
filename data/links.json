@@ -574,6 +574,23 @@
               "tags": "old school minecraft osm custom plugins authentication vanilla wiki worldstream"
             },
             {
+              "title": "AlphaPlace!",
+              "url": "https://alpha.place/",
+              "description": "A Minecraft Alpha server running Alpha 1.2.6.",
+              "address": "alphaplace.net",
+              "links": [
+                {
+                  "label": "3D map",
+                  "url": "https://alphaplace.net/map/"
+                },
+                {
+                  "label": "Discord",
+                  "url": "https://discord.com/invite/V9ncYAr"
+                }
+              ],
+              "tags": "alphaplace alpha place a1.2.6 alpha server"
+            },
+            {
               "title": "Betacraft Server",
               "url": "https://betacraft.uk/",
               "description": "Survival with staff-controlled land claims, a Skylands dimension and barter-only trade.",
@@ -582,6 +599,10 @@
                 {
                   "label": "3D map",
                   "url": "https://map.betacraft.uk/"
+                },
+                {
+                  "label": "Discord",
+                  "url": "https://discord.com/invite/6Z9hbHZ49Y"
                 }
               ],
               "tags": "betacraft server survival freebuild skylands barter"
@@ -591,12 +612,32 @@
               "url": "https://simplybeta.top/",
               "description": "Small Beta 1.7.3 survival server running Poseidon.",
               "address": "simplybeta.top",
+              "links": [
+                {
+                  "label": "Discord",
+                  "url": "https://discord.com/invite/DYyJryq7Xh"
+                }
+              ],
               "tags": "simply beta survival small poseidon"
             },
             {
               "title": "Sweetwater",
               "description": "Custom plugins including Hunger Games, Spleef and casinos.",
               "address": "sweetwaterbeta.us",
+              "links": [
+                {
+                  "label": "Map",
+                  "url": "https://map.sweetwaterbeta.us"
+                },
+                {
+                  "label": "Wiki",
+                  "url": "https://sweetwaterbetawiki.miraheze.org"
+                },
+                {
+                  "label": "Discord",
+                  "url": "https://discord.com/invite/XR9UsArJuU"
+                }
+              ],
               "tags": "sweetwater hunger games spleef casino custom plugins"
             },
             {
@@ -604,14 +645,13 @@
               "url": "https://www.alphaanarchy.org/",
               "description": "Anarchy server with no rules and no map resets.",
               "address": "alphaanarchy.org",
+              "links": [
+                {
+                  "label": "Discord",
+                  "url": "https://discord.gg/48e4cupsdQ"
+                }
+              ],
               "tags": "alphaanarchy anarchy no rules map reset"
-            },
-            {
-              "title": "AlphaPlace!",
-              "url": "https://alphaplace.net/",
-              "description": "A Minecraft Alpha server running Alpha 1.2.6.",
-              "address": "alphaplace.net",
-              "tags": "alphaplace alpha place a1.2.6 alpha server"
             },
             {
               "title": "TEST SERVER (ignore)",
