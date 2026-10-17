@@ -46,5 +46,6 @@ jobs:
 
           cp data/links.json "$SITE_DIR/data/links.json"
           cp data/mod_links.json "$SITE_DIR/data/mod_links.json"
+          cp data/plugin_links.json "$SITE_DIR/data/plugin_links.json"
           cd "$SITE_DIR"
           node scripts/build.mjs

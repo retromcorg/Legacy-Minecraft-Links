@@ -1,0 +1,882 @@
+{
+  "sections": [
+    {
+      "id": "retromc",
+      "title": "RetroMC plugins",
+      "icon": "chest",
+      "description": "Mostly from the RetroMC Development Group, which maintains Poseidon-ready forks and originals. Check each repo's Releases page; some (like Fundamentals) are build-from-source with `mvn clean package`.",
+      "note": "**Compatibility:** plugins built for the original 2011 CraftBukkit often load on Poseidon, but not always, because Poseidon's API differs. Test every jar on a local server first, and only download jars from sources you trust.",
+      "groups": [
+        {
+          "title": "Core",
+          "links": [
+            {
+              "title": "Fundamentals",
+              "url": "https://github.com/retromcorg/Fundamentals",
+              "description": "Essentials replacement built for Poseidon (FundamentalsCore and FundamentalsImport). No prebuilt releases yet, and mainly written for RetroMC.",
+              "badge": "Source",
+              "badgeType": "src",
+              "tags": "essentials replacement commands home warp economy fundamentals core"
+            },
+            {
+              "title": "Essentials (RetroMC fork)",
+              "url": "https://github.com/retromcorg/Essentials",
+              "description": "RetroMC's fork of the classic Essentials suite of server commands.",
+              "tags": "essentials commands home warp kit economy"
+            },
+            {
+              "title": "JohnyPerms",
+              "url": "https://github.com/retromcorg/JohnyPerms",
+              "description": "UUID-aware permissions plugin that replaces PermissionsEx.",
+              "tags": "permissions ranks groups uuid pex johnyperms jperms"
+            },
+            {
+              "title": "Authme-Expanded",
+              "url": "https://github.com/retromcorg/Authme-Expanded",
+              "description": "AuthMe reloaded (forked from whoami-plugins/authme-2.0). Login and registration for offline-mode servers.",
+              "tags": "authme login register password offline mode authentication"
+            },
+            {
+              "title": "Beta-Evolution-Core",
+              "url": "https://github.com/retromcorg/Beta-Evolution-Core",
+              "description": "Plugin for easy communication with the authentication servers.",
+              "tags": "authentication beta evolution core accounts"
+            }
+          ]
+        },
+        {
+          "title": "Building & protection",
+          "links": [
+            {
+              "title": "WorldEdit",
+              "url": "https://github.com/retromcorg/WorldEdit",
+              "description": "The map editor and mod, forked from EngineHub/WorldEdit for Beta 1.7.3.",
+              "tags": "worldedit build editor selection schematic"
+            },
+            {
+              "title": "WorldGuard",
+              "url": "https://github.com/retromcorg/WorldGuard",
+              "description": "Protects a server and lets players claim areas. Forked from EngineHub/WorldGuard.",
+              "tags": "worldguard protect regions claims grief"
+            },
+            {
+              "title": "LWC",
+              "url": "https://github.com/retromcorg/LWC",
+              "description": "Private locks for chests, furnaces and doors (RetroMC's fork).",
+              "tags": "lwc lock chest door protect private"
+            },
+            {
+              "title": "JVillage",
+              "url": "https://github.com/retromcorg/JVillage",
+              "description": "An alternative to Towny for Beta 1.7.3: towns and land claims.",
+              "tags": "jvillage towny towns claims land nations"
+            }
+          ]
+        },
+        {
+          "title": "Moderation & anti-abuse",
+          "links": [
+            {
+              "title": "ChatGuard",
+              "url": "https://github.com/retromcorg/ChatGuard",
+              "description": "Chat filtering, mutes, spam control and penalties.",
+              "tags": "chat filter mute spam penalties moderation chatguard"
+            },
+            {
+              "title": "IPAccountLimiter",
+              "url": "https://github.com/retromcorg/IPAccountLimiter",
+              "description": "Limits how many accounts can join from one IP address.",
+              "tags": "ip alt accounts limit multi account"
+            },
+            {
+              "title": "JDetector",
+              "url": "https://github.com/retromcorg/JDetector",
+              "description": "Detects VPN users via IPHub.",
+              "tags": "vpn proxy detect iphub jdetector"
+            },
+            {
+              "title": "IPHub",
+              "url": "https://github.com/retromcorg/IPHub",
+              "description": "VPN-blocking plugin for Poseidon (fork).",
+              "tags": "vpn block iphub fork"
+            },
+            {
+              "title": "IllegalItemRemover",
+              "url": "https://github.com/retromcorg/IllegalItemRemover",
+              "description": "Scans for certain items and deletes or reports them.",
+              "tags": "illegal items remover scan dupe cleanup"
+            },
+            {
+              "title": "Legacy Minecraft Ban Database",
+              "url": "https://github.com/retromcorg/LMBD",
+              "description": "Public modules for LMBD, with separate Poseidon and Poseidon V2 modules.",
+              "tags": "ban database lmbd shared bans legacy minecraft"
+            },
+            {
+              "title": "StaffChat",
+              "url": "https://github.com/retromcorg/StaffChat",
+              "description": "Staff chat plugin for Project Poseidon.",
+              "tags": "staff chat moderators private channel"
+            },
+            {
+              "title": "LogBlock-Username-Updater",
+              "url": "https://github.com/retromcorg/LogBlock-Username-Updater",
+              "description": "Updates usernames in the LogBlock database from Poseidon's UUIDCache.",
+              "tags": "logblock rollback username uuid cache update"
+            },
+            {
+              "title": "EasyBan",
+              "url": "https://github.com/retromcorg/EasyBan",
+              "description": "RetroMC fork of the EasyBan ban plugin. Archived.",
+              "badge": "Archived",
+              "badgeType": "archived",
+              "tags": "easyban ban kick moderation fork"
+            }
+          ]
+        },
+        {
+          "title": "Quality of life",
+          "links": [
+            {
+              "title": "Billboard",
+              "url": "https://github.com/retromcorg/Billboard",
+              "description": "Auto-broadcast plugin with ad requests.",
+              "tags": "broadcast announcements ads billboard"
+            },
+            {
+              "title": "PVPToggle",
+              "url": "https://github.com/retromcorg/PVPToggle",
+              "description": "Let players toggle PvP on and off.",
+              "tags": "pvp toggle combat"
+            },
+            {
+              "title": "JWildTP",
+              "url": "https://github.com/retromcorg/JWildTP",
+              "description": "Random teleport (WildTP) for Beta 1.7.3.",
+              "tags": "wildtp random teleport rtp wild"
+            },
+            {
+              "title": "Custom-Messages",
+              "url": "https://github.com/retromcorg/Custom-Messages",
+              "description": "Custom join and leave messages.",
+              "tags": "join leave messages custom motd"
+            },
+            {
+              "title": "AutoRestartManager",
+              "url": "https://github.com/retromcorg/AutoRestartManager",
+              "description": "Automatic restart plugin, built for RetroMC and Betalands.",
+              "tags": "restart automatic scheduled uptime"
+            },
+            {
+              "title": "JCode",
+              "url": "https://github.com/retromcorg/JCode",
+              "description": "Generates daily verification codes for players, with a `/jcode` cape command.",
+              "tags": "jcode verification codes cape"
+            },
+            {
+              "title": "JVote",
+              "url": "https://github.com/retromcorg/JVote",
+              "description": "Lets players vote for weather and time changes. Made for RetroMC and needs Project Poseidon and Fundamentals.",
+              "tags": "vote voting weather time poseidon fundamentals"
+            },
+            {
+              "title": "JohnyUtils",
+              "url": "https://github.com/retromcorg/JohnyUtils",
+              "description": "An assortment of small plugins that are not big enough for their own repositories.",
+              "tags": "johnyutils utilities small plugins collection"
+            }
+          ]
+        },
+        {
+          "title": "Discord & integrations",
+          "links": [
+            {
+              "title": "DiscordCore-4",
+              "url": "https://github.com/retromcorg/DiscordCore-4",
+              "description": "Discord bot and API plugin for Beta 1.7.3.",
+              "tags": "discord bot api core jda"
+            },
+            {
+              "title": "DiscordCore-6",
+              "url": "https://github.com/retromcorg/DiscordCore-6",
+              "description": "Provides JDA5 for Bukkit plugins.",
+              "tags": "discord jda5 library"
+            },
+            {
+              "title": "Discord-Bot-Chatbridge",
+              "url": "https://github.com/retromcorg/Discord-Bot-Chatbridge",
+              "description": "Discord chat bridge that uses Retro-Bot.",
+              "tags": "discord chat bridge relay retro-bot"
+            },
+            {
+              "title": "Discord-Command-Alerter",
+              "url": "https://github.com/retromcorg/Discord-Command-Alerter",
+              "description": "Posts command usage to a Discord channel.",
+              "tags": "discord commands alert log audit"
+            },
+            {
+              "title": "DiscordRankSyncer",
+              "url": "https://github.com/retromcorg/DiscordRankSyncer",
+              "description": "Basic plugin to sync JPerms ranks to Discord.",
+              "tags": "discord ranks sync jperms roles"
+            },
+            {
+              "title": "Discord-Authentication-Core",
+              "url": "https://github.com/retromcorg/Discord-Authentication-Core",
+              "description": "Extension on DiscordCore for linking Discord and Minecraft accounts.",
+              "tags": "discord authentication link accounts"
+            }
+          ]
+        },
+        {
+          "title": "Monitoring & stats",
+          "links": [
+            {
+              "title": "JServerInformation",
+              "url": "https://github.com/retromcorg/JServerInformation",
+              "description": "Provides essential API endpoints through JWebAPI.",
+              "tags": "api endpoints jwebapi server information json"
+            },
+            {
+              "title": "StatsBridge",
+              "url": "https://github.com/retromcorg/StatsBridge",
+              "description": "Stat API bridge plugin for Beta 1.7.3.",
+              "tags": "stats api bridge statistics"
+            },
+            {
+              "title": "minecraft-prometheus-exporter",
+              "url": "https://github.com/retromcorg/minecraft-prometheus-exporter",
+              "description": "Bukkit plugin that exports server stats to Prometheus (fork).",
+              "tags": "prometheus grafana metrics exporter monitoring"
+            }
+          ]
+        },
+        {
+          "title": "Developer tools",
+          "links": [
+            {
+              "title": "Poseidon-Plugin-Template",
+              "url": "https://github.com/retromcorg/Poseidon-Plugin-Template",
+              "description": "Maven template for Beta 1.7.3 plugins. Start new Poseidon plugins here.",
+              "tags": "template maven starter project new plugin develop"
+            },
+            {
+              "title": "PoseidonCompat",
+              "url": "https://github.com/retromcorg/PoseidonCompat",
+              "description": "Dummy plugin carrying libraries and shims (such as JSON Simple) for plugins migrating to Poseidon V2.",
+              "badge": "V2",
+              "badgeType": "rc",
+              "tags": "compat shims libraries json simple v2 migrate"
+            },
+            {
+              "title": "RetroBridge",
+              "url": "https://github.com/retromcorg/RetroBridge",
+              "description": "Compatibility layer for economy, permissions, GeoIP, Vanish and more.",
+              "tags": "retrobridge economy permissions geoip vanish compatibility layer"
+            },
+            {
+              "title": "kotlin-libs",
+              "url": "https://github.com/betamcserver/kotlin-libs",
+              "description": "BetaMC's plugin that provides various Kotlin libraries at runtime.",
+              "tags": "kotlin libs libraries runtime library dependency betamc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "betamc",
+      "title": "BetaMC plugins",
+      "icon": "torch",
+      "description": "Plugins and forks from the BetaMC team, mostly for Project Poseidon. Check each repo's Releases page, and build from source if there is no release.",
+      "groups": [
+        {
+          "title": "Gameplay & quality of life",
+          "links": [
+            {
+              "title": "NightSkip",
+              "url": "https://github.com/betamcserver/NightSkip",
+              "description": "Skips the night and storms when enough players sleep. Written for Project Poseidon, works across several worlds and is configurable.",
+              "tags": "nightskip sleep bed night storm skip kotlin poseidon"
+            },
+            {
+              "title": "BWildTP",
+              "url": "https://github.com/betamcserver/BWildTP",
+              "description": "A random teleport plugin for Beta 1.7.3. A fork of JWildTP with a Maven build and `/rtp` and `/randomtp` aliases.",
+              "tags": "wildtp rtp randomtp random teleport jwildtp fork"
+            },
+            {
+              "title": "Nametags",
+              "url": "https://github.com/betamcserver/Nametags",
+              "description": "Lets players change their own name tag.",
+              "tags": "nametags name tag nickname"
+            },
+            {
+              "title": "BJoinsPlus",
+              "url": "https://github.com/betamcserver/BJoinsPlus",
+              "description": "Custom join messages. A fork of Old School Minecraft's JoinsPlus.",
+              "tags": "joins join message custom osm fork"
+            },
+            {
+              "title": "PvPTweaks",
+              "url": "https://github.com/betamcserver/PvPTweaks",
+              "description": "Makes projectiles deal knockback to players.",
+              "tags": "pvp knockback projectiles arrows combat"
+            },
+            {
+              "title": "HeroicDeath",
+              "url": "https://github.com/betamcserver/HeroicDeath",
+              "description": "A fork of HeroicDeath that works on Beta 1.7.3.",
+              "tags": "heroicdeath death messages fork"
+            },
+            {
+              "title": "furnace-bucket-fix",
+              "url": "https://github.com/betamcserver/furnace-bucket-fix",
+              "description": "Fixes lava buckets not leaving an empty bucket behind when used as furnace fuel.",
+              "tags": "furnace bucket lava fix bug"
+            },
+            {
+              "title": "BMCDice",
+              "url": "https://github.com/betamcserver/BMCDice",
+              "description": "Roll a dice with `/dice` or `/roll` in a number range you choose and broadcast the result.",
+              "tags": "dice roll random fun command"
+            },
+            {
+              "title": "Calculator",
+              "url": "https://github.com/betamcserver/Calculator",
+              "description": "A very basic in-game calculator command.",
+              "tags": "calculator math command"
+            },
+            {
+              "title": "BMCFakeOP",
+              "url": "https://github.com/betamcserver/BMCFakeOP",
+              "description": "Adds `/fakeop` and `/fakedeop` for trolling.",
+              "tags": "fakeop fakedeop prank troll command"
+            }
+          ]
+        },
+        {
+          "title": "Economy & shops",
+          "links": [
+            {
+              "title": "ChestShop",
+              "url": "https://github.com/betamcserver/ChestShop",
+              "description": "ChestShop updated for BetaMC: let players run shops from chests and signs.",
+              "tags": "chestshop shop sign chest economy trade"
+            },
+            {
+              "title": "CookieMonster",
+              "url": "https://github.com/betamcserver/CookieMonster",
+              "description": "Money and item drops for killing monsters, with iConomy and BOSEconomy support and spawn-camping checks.",
+              "tags": "cookiemonster economy money mobs drops iconomy boseconomy zcore"
+            },
+            {
+              "title": "Auctioneer",
+              "url": "https://github.com/betamcserver/Auctioneer",
+              "description": "A chat-based auction plugin for items, with plenty of settings to control how it behaves.",
+              "tags": "auction auctioneer economy items sell chat"
+            },
+            {
+              "title": "HomeSlots",
+              "url": "https://github.com/betamcserver/HomeSlots",
+              "description": "Buy extra home slots. Integrates with ZCore.",
+              "tags": "homes slots zcore economy buy"
+            },
+            {
+              "title": "Tebex-Minecraft-Beta",
+              "url": "https://github.com/betamcserver/Tebex-Minecraft-Beta",
+              "description": "The Tebex store plugin, ported for Beta servers.",
+              "tags": "tebex store shop donations webstore"
+            },
+            {
+              "title": "ChestShop-Old",
+              "url": "https://github.com/betamcserver/ChestShop-Old",
+              "description": "The earlier ChestShop version updated for RetroMC and BetaLands. Archived.",
+              "badge": "Archived",
+              "badgeType": "archived",
+              "tags": "chestshop shop retromc betalands old"
+            }
+          ]
+        },
+        {
+          "title": "Worlds & building",
+          "links": [
+            {
+              "title": "Stargate",
+              "url": "https://github.com/betamcserver/Stargate",
+              "description": "A Bukkit port of Dinnerbone's Stargate: build portals that link to each other.",
+              "tags": "stargate portal teleport gates dinnerbone"
+            },
+            {
+              "title": "WorldBorder",
+              "url": "https://github.com/betamcserver/WorldBorder",
+              "description": "Set borders for your worlds to limit how large they can grow.",
+              "tags": "worldborder border world size limit"
+            }
+          ]
+        },
+        {
+          "title": "Moderation & security",
+          "links": [
+            {
+              "title": "BMCShield",
+              "url": "https://github.com/betamcserver/BMCShield",
+              "description": "Stops players from impersonating others when registering on BetaMC.",
+              "tags": "bmcshield register impersonation security auth"
+            },
+            {
+              "title": "IPNotify",
+              "url": "https://github.com/betamcserver/IPNotify",
+              "description": "Lets ops see the IP address of other players.",
+              "tags": "ip notify ops address moderation"
+            },
+            {
+              "title": "LL (login logger)",
+              "url": "https://github.com/betamcserver/LL",
+              "description": "Logs connections to the server, which helps after a raid.",
+              "tags": "login logger connections log raid security"
+            },
+            {
+              "title": "DiamondLogger",
+              "url": "https://github.com/betamcserver/DiamondLogger",
+              "description": "Sends a Discord embed when a player mines a suspicious amount of diamond ore.",
+              "tags": "diamond logger xray discord alert mining"
+            },
+            {
+              "title": "FakeAFK-Plugin",
+              "url": "https://github.com/betamcserver/FakeAFK-Plugin",
+              "description": "Lets staff toggle a fake AFK status.",
+              "tags": "afk fake staff status"
+            },
+            {
+              "title": "Orebfuscator",
+              "url": "https://github.com/betamcserver/Orebfuscator",
+              "description": "Orebfuscator for Poseidon on Beta 1.7.3, to hide ores from x-ray clients. Archived.",
+              "badge": "Archived",
+              "badgeType": "archived",
+              "tags": "orebfuscator xray ore anticheat"
+            }
+          ]
+        },
+        {
+          "title": "Votes, bots & proxy",
+          "links": [
+            {
+              "title": "ClamVote",
+              "url": "https://github.com/betamcserver/ClamVote",
+              "description": "A Votifier v1 compatible library plugin for b1.7.3 on Project Poseidon. Other plugins listen for vote events.",
+              "tags": "clamvote votifier vote voting library poseidon"
+            },
+            {
+              "title": "LegacyMinecraftPinger-bungee",
+              "url": "https://github.com/betamcserver/LegacyMinecraftPinger-bungee",
+              "description": "Legacy Minecraft API pinger, ported to BungeeCord.",
+              "tags": "bungeecord bungee pinger tracker legacy minecraft api"
+            },
+            {
+              "title": "serverlist-plugin-bungee",
+              "url": "https://github.com/betamcserver/serverlist-plugin-bungee",
+              "description": "Pings the Betacraft server list from BungeeCord.",
+              "tags": "bungeecord bungee serverlist betacraft ping"
+            },
+            {
+              "title": "PlayerListAPI",
+              "url": "https://github.com/betamcserver/PlayerListAPI",
+              "description": "A simple API endpoint that returns information about online players. Archived.",
+              "badge": "Archived",
+              "badgeType": "archived",
+              "tags": "playerlist api endpoint players online"
+            }
+          ]
+        },
+        {
+          "title": "Archived",
+          "links": [
+            {
+              "title": "BNightSkip",
+              "url": "https://github.com/betamcserver/BNightSkip",
+              "description": "An older plugin that skips the night with beds. Replaced by NightSkip. Archived.",
+              "badge": "Archived",
+              "badgeType": "archived",
+              "tags": "nightskip sleep bed night old"
+            },
+            {
+              "title": "ColorCodeInfo",
+              "url": "https://github.com/betamcserver/ColorCodeInfo",
+              "description": "Shows colour codes in a simple command. Archived.",
+              "badge": "Archived",
+              "badgeType": "archived",
+              "tags": "color colour codes chat command"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osm",
+      "title": "Old School Minecraft plugins",
+      "icon": "compass",
+      "description": "Plugins from the Old School Minecraft team. Some target Project Poseidon Plus, and some are tied to that server's own setup, so check each repo for what it needs.",
+      "groups": [
+        {
+          "title": "Gameplay & fun",
+          "links": [
+            {
+              "title": "SuperSpleef",
+              "url": "https://github.com/OldSchoolMinecraft/SuperSpleef",
+              "description": "A spleef minigame plugin.",
+              "tags": "spleef minigame arena fun"
+            },
+            {
+              "title": "PlayerMounts",
+              "url": "https://github.com/OldSchoolMinecraft/PlayerMounts",
+              "description": "Mount players and mobs. Built for b1.7.3 on Poseidon.",
+              "tags": "mount ride players mobs fun poseidon"
+            },
+            {
+              "title": "MobAssassin",
+              "url": "https://github.com/OldSchoolMinecraft/MobAssassin",
+              "description": "Gives players rewards for killing mobs.",
+              "tags": "mobs rewards kills bounty"
+            },
+            {
+              "title": "LoginStreaks",
+              "url": "https://github.com/OldSchoolMinecraft/LoginStreaks",
+              "description": "Rewards players for logging in on several days in a row.",
+              "tags": "login streak daily rewards"
+            },
+            {
+              "title": "CustomSpawners",
+              "url": "https://github.com/OldSchoolMinecraft/CustomSpawners",
+              "description": "Lets players spend money to change the mob type of a spawner. Prices and options are configurable.",
+              "tags": "spawner mob spawners economy money"
+            },
+            {
+              "title": "LivingLockedChests",
+              "url": "https://github.com/OldSchoolMinecraft/LivingLockedChests",
+              "description": "A very simple plugin that stops locked chests from fading away.",
+              "tags": "locked chests lwc despawn fade"
+            },
+            {
+              "title": "NoRain",
+              "url": "https://github.com/OldSchoolMinecraft/NoRain",
+              "description": "Disables rain.",
+              "tags": "rain weather disable"
+            },
+            {
+              "title": "GlobalTimeLock",
+              "url": "https://github.com/OldSchoolMinecraft/GlobalTimeLock",
+              "description": "Hooks Essentials to lock players' time, like a forced `/ptime`.",
+              "tags": "time lock ptime essentials day night"
+            },
+            {
+              "title": "DayVote",
+              "url": "https://github.com/OldSchoolMinecraft/DayVote",
+              "description": "Vote for day.",
+              "tags": "vote day time sleep"
+            },
+            {
+              "title": "DVRedux",
+              "url": "https://github.com/OldSchoolMinecraft/DVRedux",
+              "description": "Another voting plugin for day and rain, written to avoid race conditions.",
+              "tags": "vote day rain weather time"
+            }
+          ]
+        },
+        {
+          "title": "Teleport & travel",
+          "links": [
+            {
+              "title": "OpenRTP",
+              "url": "https://github.com/OldSchoolMinecraft/OpenRTP",
+              "description": "A flexible random teleport plugin, fully open source.",
+              "tags": "rtp random teleport wild foss"
+            },
+            {
+              "title": "CoordsTP",
+              "url": "https://github.com/OldSchoolMinecraft/CoordsTP",
+              "description": "Teleport to coordinates.",
+              "tags": "teleport coordinates tp xyz"
+            },
+            {
+              "title": "Landmarks",
+              "url": "https://github.com/OldSchoolMinecraft/Landmarks",
+              "description": "A paginated landmark and warp plugin for Beta 1.7.3 on Poseidon.",
+              "tags": "landmarks warps warp teleport poseidon"
+            }
+          ]
+        },
+        {
+          "title": "Chat & Discord",
+          "links": [
+            {
+              "title": "Bridgecord",
+              "url": "https://github.com/OldSchoolMinecraft/Bridgecord",
+              "description": "Bridges chat between Discord and Poseidon.",
+              "tags": "discord chat bridge poseidon"
+            },
+            {
+              "title": "Interchat",
+              "url": "https://github.com/OldSchoolMinecraft/Interchat",
+              "description": "Relays chat between two Minecraft servers.",
+              "tags": "chat relay servers network"
+            },
+            {
+              "title": "YACF",
+              "url": "https://github.com/OldSchoolMinecraft/YACF",
+              "description": "Yet Another Chat Filter.",
+              "tags": "chat filter swear words moderation"
+            },
+            {
+              "title": "JoinsPlus",
+              "url": "https://github.com/OldSchoolMinecraft/JoinsPlus",
+              "description": "Custom join messages.",
+              "tags": "join messages custom welcome"
+            },
+            {
+              "title": "Discord-Bot-Core",
+              "url": "https://github.com/OldSchoolMinecraft/Discord-Bot-Core",
+              "description": "A modified DiscordCore that allows configurable gateway intents.",
+              "tags": "discordcore discord bot api intents"
+            }
+          ]
+        },
+        {
+          "title": "Economy & shops",
+          "links": [
+            {
+              "title": "CommerceCore",
+              "url": "https://github.com/OldSchoolMinecraft/CommerceCore",
+              "description": "An economy system for b1.7.3.",
+              "tags": "economy money commerce balance"
+            },
+            {
+              "title": "BusinessBal",
+              "url": "https://github.com/OldSchoolMinecraft/BusinessBal",
+              "description": "Business accounts with a trustee system so several players can manage them together.",
+              "tags": "business accounts economy trustee balance"
+            },
+            {
+              "title": "ShopDB",
+              "url": "https://github.com/OldSchoolMinecraft/ShopDB",
+              "description": "Generates a JSON file describing the shops inside the regions you configure.",
+              "tags": "shops chestshop json regions economy"
+            }
+          ]
+        },
+        {
+          "title": "Admin & moderation",
+          "links": [
+            {
+              "title": "PlayerReports",
+              "url": "https://github.com/OldSchoolMinecraft/PlayerReports",
+              "description": "A player reports plugin.",
+              "tags": "reports players moderation staff"
+            },
+            {
+              "title": "StaffCMD",
+              "url": "https://github.com/OldSchoolMinecraft/StaffCMD",
+              "description": "A configurable `/staff` command for admins and mods (Poseidon Plus 1.2).",
+              "tags": "staff command moderators list poseidon plus"
+            },
+            {
+              "title": "BetterInvsee",
+              "url": "https://github.com/OldSchoolMinecraft/BetterInvsee",
+              "description": "An improved inventory viewer for admins and staff, billed as better than Essentials.",
+              "tags": "invsee inventory view staff admin essentials"
+            },
+            {
+              "title": "Invisiman",
+              "url": "https://github.com/OldSchoolMinecraft/Invisiman",
+              "description": "Vanish for Poseidon.",
+              "tags": "vanish invisible staff poseidon"
+            },
+            {
+              "title": "BombSquad",
+              "url": "https://github.com/OldSchoolMinecraft/BombSquad",
+              "description": "Lets admins control who may place or ignite TNT.",
+              "tags": "tnt explosions permissions grief"
+            },
+            {
+              "title": "BlastPass",
+              "url": "https://github.com/OldSchoolMinecraft/BlastPass",
+              "description": "Controls who can use TNT on Beta 1.7.3.",
+              "tags": "tnt explosions permissions grief"
+            },
+            {
+              "title": "PEXTitleManager",
+              "url": "https://github.com/OldSchoolMinecraft/PEXTitleManager",
+              "description": "Lets players change their PermissionsEx prefix, based on the groups they belong to.",
+              "tags": "pex permissionsex prefix title rank"
+            },
+            {
+              "title": "ReleaseFilter",
+              "url": "https://github.com/OldSchoolMinecraft/ReleaseFilter",
+              "description": "Blocks players using DirtMultiversion from connecting to Beta 1.7.3.",
+              "tags": "multiversion dirtmultiversion block clients version"
+            },
+            {
+              "title": "PoseidonWatchdog",
+              "url": "https://github.com/OldSchoolMinecraft/PoseidonWatchdog",
+              "description": "A port of JohnyMuffin's watchdog for Project Poseidon.",
+              "tags": "watchdog crash freeze poseidon monitor"
+            },
+            {
+              "title": "ScheduledDeath",
+              "url": "https://github.com/OldSchoolMinecraft/ScheduledDeath",
+              "description": "Manages automatic shutdowns of your b1.7.3 server (Poseidon Plus).",
+              "tags": "restart shutdown schedule poseidon plus"
+            },
+            {
+              "title": "SADEnts",
+              "url": "https://github.com/OldSchoolMinecraft/SADEnts",
+              "description": "Search And Destroy Entities: clears entities on b1.7.3 (Poseidon Plus).",
+              "tags": "entities clear lag cleanup poseidon plus"
+            },
+            {
+              "title": "Chunkster",
+              "url": "https://github.com/OldSchoolMinecraft/Chunkster",
+              "description": "A modified Chunkster with multi-threading improvements.",
+              "tags": "chunks pregenerate performance threads"
+            }
+          ]
+        },
+        {
+          "title": "Authentication & clients",
+          "links": [
+            {
+              "title": "OSAS",
+              "url": "https://github.com/OldSchoolMinecraft/OSAS",
+              "description": "The Old School Authentication System, which replaced FakeOnline.",
+              "tags": "auth authentication login osas accounts skins"
+            },
+            {
+              "title": "HydraConnect",
+              "url": "https://github.com/OldSchoolMinecraft/HydraConnect",
+              "description": "Connects your Poseidon server to Hydra clients.",
+              "tags": "hydra launcher client connect poseidon"
+            }
+          ]
+        },
+        {
+          "title": "Developer tools",
+          "links": [
+            {
+              "title": "NostalgiaLib",
+              "url": "https://github.com/OldSchoolMinecraft/NostalgiaLib",
+              "description": "Utilities that help make better plugins.",
+              "tags": "library utilities develop api"
+            },
+            {
+              "title": "GradlePluginTemplate",
+              "url": "https://github.com/OldSchoolMinecraft/GradlePluginTemplate",
+              "description": "A template project to base Poseidon (b1.7.3) plugin development on, built with Gradle.",
+              "tags": "gradle template plugin develop poseidon starter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "garsooon",
+      "title": "Garsooon plugins",
+      "icon": "potion",
+      "description": "Plugins by Garsooon, who made this site. Most have a release on their GitHub Releases page.",
+      "links": [
+        {
+          "title": "Arena Fighter",
+          "url": "https://github.com/Garsooon/Arena-Fighter",
+          "description": "Lets players fight in arenas and teleports them back to where they were when the fight is over.",
+          "tags": "arena fighter pvp duel fight teleport minigame"
+        },
+        {
+          "title": "ContainerUtils",
+          "url": "https://github.com/Garsooon/ContainerUtils",
+          "description": "Restocks chests and dispensers on a timer or by command. Built for Project Poseidon.",
+          "tags": "container chest dispenser restock refill timer loot poseidon"
+        },
+        {
+          "title": "GoldToolUtils",
+          "url": "https://github.com/Garsooon/GoldToolUtils",
+          "description": "Gives gold tools extra effects on weekends, such as instant ore mining with smelted drops for pickaxes. Configurable.",
+          "tags": "gold tools weekend pickaxe sword axe shovel hoe effects"
+        },
+        {
+          "title": "ThrowinPeeps",
+          "url": "https://github.com/Garsooon/ThrowinPeeps",
+          "description": "A simple, silly plugin that lets players pick up and throw other players.",
+          "tags": "throw pickup players fun silly"
+        },
+        {
+          "title": "ZCore-API",
+          "url": "https://github.com/Garsooon/ZCore-API",
+          "description": "Serves ZCore player stats, a leaderboard and server status over HTTP. For servers that run ZCore (on Tsunami).",
+          "tags": "zcore api http stats leaderboard json tsunami"
+        },
+        {
+          "title": "FlatWorldGenerator",
+          "url": "https://github.com/Garsooon/FlatWorldGenerator",
+          "description": "A bare-bones superflat terrain generator. Hook into it directly or through a world generator plugin. Archived.",
+          "badge": "Archived",
+          "badgeType": "archived",
+          "tags": "flat superflat world generator terrain multiverse"
+        },
+        {
+          "title": "Plugin-Template",
+          "url": "https://github.com/Garsooon/Plugin-Template",
+          "description": "A minimal plugin template for Beta 1.7.3, to start coding quickly.",
+          "tags": "plugin template maven starter develop example"
+        },
+        {
+          "title": "Garsooon on GitHub",
+          "url": "https://github.com/Garsooon?tab=repositories",
+          "description": "All repositories, including forks of RetroMC plugins and Python tools such as a schematic converter for b1.7.3.",
+          "host": "github.com/Garsooon",
+          "tags": "garsooon github repositories profile schematic converter"
+        }
+      ]
+    },
+    {
+      "id": "more",
+      "title": "More plugins & archives",
+      "icon": "book",
+      "description": "Other authors, other servers, and old plugin archives.",
+      "links": [
+        {
+          "title": "All retromcorg repositories",
+          "url": "https://github.com/orgs/retromcorg/repositories?type=all",
+          "description": "The full list: 50+ repos including many small plugins not shown here.",
+          "tags": "retromcorg organization repositories all github"
+        },
+        {
+          "title": "OldSchoolMinecraft on GitHub",
+          "url": "https://github.com/OldSchoolMinecraft",
+          "description": "Open-source plugins and software from the Old School Minecraft server.",
+          "tags": "old school minecraft oldschoolminecraft plugins open source auth"
+        },
+        {
+          "title": "Bukkit-era download archive",
+          "url": "https://pldm.ml/Minecraft/",
+          "description": "Big dump of old Minecraft servers, Bukkit and plugins. Its uploader only scanned it with ClamAV, so inspect anything before running it.",
+          "badge": "Caution",
+          "badgeType": "warn",
+          "host": "pldm.ml/Minecraft",
+          "tags": "bukkit archive old plugins dump download craftbukkit"
+        },
+        {
+          "title": "r/TheBukkitArchive",
+          "url": "https://www.reddit.com/r/TheBukkitArchive/",
+          "description": "Subreddit sharing archived Bukkit-era plugins and servers.",
+          "host": "reddit.com/r/TheBukkitArchive",
+          "tags": "reddit bukkit archive subreddit community plugins"
+        },
+        {
+          "title": "betamcserver on GitHub",
+          "url": "https://github.com/betamcserver",
+          "description": "The BetaMC team's plugins, forks and server tools.",
+          "tags": "betamc betamcserver github plugins org"
+        }
+      ]
+    }
+  ]
+}

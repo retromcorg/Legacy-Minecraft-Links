@@ -27,5 +27,5 @@ jobs:
         with:
           node-version: 20
 
-      - name: Validate data/links.json and data/mod_links.json
+      - name: Validate the data files
         run: node scripts/validate-links.mjs

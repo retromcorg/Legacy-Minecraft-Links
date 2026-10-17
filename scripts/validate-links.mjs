@@ -1,12 +1,12 @@
-// Checks data/links.json and data/mod_links.json (no network)
-//   node scripts/validate-links.mjs [file]    default: both files
+// Checks the link data files (no network)
+//   node scripts/validate-links.mjs [file]    default: links.json, mod_links.json and plugin_links.json
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
 import { loadLinks, validateLinks } from './lib/validate.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const files = process.argv[2] ? [resolve(process.argv[2])] : [join(root, 'data', 'links.json'), join(root, 'data', 'mod_links.json')];
+const files = process.argv[2] ? [resolve(process.argv[2])] : ['links.json', 'mod_links.json', 'plugin_links.json'].map((f) => join(root, 'data', f));
 const publicDir = join(root, 'public'); // only the site repo has one. it is used to check internal pages
 
 let failed = false;

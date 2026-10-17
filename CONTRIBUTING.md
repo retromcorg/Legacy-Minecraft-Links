@@ -1,12 +1,14 @@
 # Adding a link
 
-All the links on the site live in two files with the same format. To add one, edit the right file and open a pull
+All the links on the site live in three files with the same format. To add one, edit the right file and open a pull
 request. You do not need to touch any HTML.
 
-- [`data/links.json`](data/links.json): the hub (server jars, plugins, servers, launchers, tools, modding resources, docs
-  and community).
+- [`data/links.json`](data/links.json): the hub (server jars, servers, launchers, tools, modding resources, docs and
+  community).
 - [`data/mod_links.json`](data/mod_links.json): the Mods page. Add mods, mod loaders and libraries here, and tools for
-  making mods. Server plugins go in `links.json`.
+  making mods.
+- [`data/plugin_links.json`](data/plugin_links.json): the Plugins page. Add server plugins here, grouped by who makes them
+  (RetroMC, BetaMC, more).
 
 ## What makes a good link
 
@@ -34,7 +36,7 @@ We will say no to links that are mostly advertising, and to server listings that
    }
    ```
 
-3. Check it: `node scripts/validate-links.mjs`. It checks both files and lists every problem with the exact entry and
+3. Check it: `node scripts/validate-links.mjs`. It checks every file and lists every problem with the exact entry and
    field.
 4. Open a pull request and fill in the checklist.
 

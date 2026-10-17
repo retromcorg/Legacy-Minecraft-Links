@@ -144,295 +144,53 @@
       "id": "plugins",
       "title": "Plugins",
       "icon": "torch",
-      "description": "Mostly from the RetroMC Development Group, which maintains Poseidon-ready forks and originals. Check each repo's Releases page; some (like Fundamentals) are build-from-source with `mvn clean package`.",
-      "groups": [
+      "description": "Every plugin from RetroMC and BetaMC, grouped and searchable, is on the Plugins page. A few staples are below.",
+      "links": [
         {
-          "title": "Core",
-          "links": [
-            {
-              "title": "Fundamentals",
-              "url": "https://github.com/retromcorg/Fundamentals",
-              "description": "Essentials replacement built for Poseidon (FundamentalsCore and FundamentalsImport). No prebuilt releases yet, and mainly written for RetroMC.",
-              "badge": "Source",
-              "badgeType": "src",
-              "tags": "essentials replacement commands home warp economy fundamentals core"
-            },
-            {
-              "title": "Essentials (RetroMC fork)",
-              "url": "https://github.com/retromcorg/Essentials",
-              "description": "RetroMC's fork of the classic Essentials suite of server commands.",
-              "tags": "essentials commands home warp kit economy"
-            },
-            {
-              "title": "JohnyPerms",
-              "url": "https://github.com/retromcorg/JohnyPerms",
-              "description": "UUID-aware permissions plugin that replaces PermissionsEx.",
-              "tags": "permissions ranks groups uuid pex johnyperms jperms"
-            },
-            {
-              "title": "Authme-Expanded",
-              "url": "https://github.com/retromcorg/Authme-Expanded",
-              "description": "AuthMe reloaded (forked from whoami-plugins/authme-2.0). Login and registration for offline-mode servers.",
-              "tags": "authme login register password offline mode authentication"
-            },
-            {
-              "title": "Beta-Evolution-Core",
-              "url": "https://github.com/retromcorg/Beta-Evolution-Core",
-              "description": "Plugin for easy communication with the authentication servers.",
-              "tags": "authentication beta evolution core accounts"
-            }
-          ]
+          "title": "All plugins",
+          "url": "plugins.html",
+          "description": "RetroMC and BetaMC plugins for Beta 1.7.3, grouped by what they do: core, protection, moderation, economy, Discord, monitoring and developer tools.",
+          "internal": true,
+          "featured": true,
+          "tags": "plugins list all page retromc betamc poseidon"
         },
         {
-          "title": "Building & protection",
-          "links": [
-            {
-              "title": "WorldEdit",
-              "url": "https://github.com/retromcorg/WorldEdit",
-              "description": "The map editor and mod, forked from EngineHub/WorldEdit for Beta 1.7.3.",
-              "tags": "worldedit build editor selection schematic"
-            },
-            {
-              "title": "WorldGuard",
-              "url": "https://github.com/retromcorg/WorldGuard",
-              "description": "Protects a server and lets players claim areas. Forked from EngineHub/WorldGuard.",
-              "tags": "worldguard protect regions claims grief"
-            },
-            {
-              "title": "LWC",
-              "url": "https://github.com/retromcorg/LWC",
-              "description": "Private locks for chests, furnaces and doors (RetroMC's fork).",
-              "tags": "lwc lock chest door protect private"
-            },
-            {
-              "title": "JVillage",
-              "url": "https://github.com/retromcorg/JVillage",
-              "description": "An alternative to Towny for Beta 1.7.3: towns and land claims.",
-              "tags": "jvillage towny towns claims land nations"
-            }
-          ]
+          "title": "Fundamentals",
+          "url": "https://github.com/retromcorg/Fundamentals",
+          "description": "Essentials replacement built for Poseidon (FundamentalsCore and FundamentalsImport). No prebuilt releases yet, and mainly written for RetroMC.",
+          "badge": "Source",
+          "badgeType": "src",
+          "tags": "essentials replacement commands home warp economy fundamentals core"
         },
         {
-          "title": "Moderation & anti-abuse",
-          "links": [
-            {
-              "title": "ChatGuard",
-              "url": "https://github.com/retromcorg/ChatGuard",
-              "description": "Chat filtering, mutes, spam control and penalties.",
-              "tags": "chat filter mute spam penalties moderation chatguard"
-            },
-            {
-              "title": "IPAccountLimiter",
-              "url": "https://github.com/retromcorg/IPAccountLimiter",
-              "description": "Limits how many accounts can join from one IP address.",
-              "tags": "ip alt accounts limit multi account"
-            },
-            {
-              "title": "JDetector",
-              "url": "https://github.com/retromcorg/JDetector",
-              "description": "Detects VPN users via IPHub.",
-              "tags": "vpn proxy detect iphub jdetector"
-            },
-            {
-              "title": "IPHub",
-              "url": "https://github.com/retromcorg/IPHub",
-              "description": "VPN-blocking plugin for Poseidon (fork).",
-              "tags": "vpn block iphub fork"
-            },
-            {
-              "title": "IllegalItemRemover",
-              "url": "https://github.com/retromcorg/IllegalItemRemover",
-              "description": "Scans for certain items and deletes or reports them.",
-              "tags": "illegal items remover scan dupe cleanup"
-            },
-            {
-              "title": "Legacy Minecraft Ban Database",
-              "url": "https://github.com/retromcorg/LMBD",
-              "description": "Public modules for LMBD, with separate Poseidon and Poseidon V2 modules.",
-              "tags": "ban database lmbd shared bans legacy minecraft"
-            },
-            {
-              "title": "StaffChat",
-              "url": "https://github.com/retromcorg/StaffChat",
-              "description": "Staff chat plugin for Project Poseidon.",
-              "tags": "staff chat moderators private channel"
-            },
-            {
-              "title": "LogBlock-Username-Updater",
-              "url": "https://github.com/retromcorg/LogBlock-Username-Updater",
-              "description": "Updates usernames in the LogBlock database from Poseidon's UUIDCache.",
-              "tags": "logblock rollback username uuid cache update"
-            }
-          ]
+          "title": "Essentials (RetroMC fork)",
+          "url": "https://github.com/retromcorg/Essentials",
+          "description": "RetroMC's fork of the classic Essentials suite of server commands.",
+          "tags": "essentials commands home warp kit economy"
         },
         {
-          "title": "Quality of life",
-          "links": [
-            {
-              "title": "Billboard",
-              "url": "https://github.com/retromcorg/Billboard",
-              "description": "Auto-broadcast plugin with ad requests.",
-              "tags": "broadcast announcements ads billboard"
-            },
-            {
-              "title": "PVPToggle",
-              "url": "https://github.com/retromcorg/PVPToggle",
-              "description": "Let players toggle PvP on and off.",
-              "tags": "pvp toggle combat"
-            },
-            {
-              "title": "JWildTP",
-              "url": "https://github.com/retromcorg/JWildTP",
-              "description": "Random teleport (WildTP) for Beta 1.7.3.",
-              "tags": "wildtp random teleport rtp wild"
-            },
-            {
-              "title": "Custom-Messages",
-              "url": "https://github.com/retromcorg/Custom-Messages",
-              "description": "Custom join and leave messages.",
-              "tags": "join leave messages custom motd"
-            },
-            {
-              "title": "AutoRestartManager",
-              "url": "https://github.com/retromcorg/AutoRestartManager",
-              "description": "Automatic restart plugin, built for RetroMC and Betalands.",
-              "tags": "restart automatic scheduled uptime"
-            },
-            {
-              "title": "JCode",
-              "url": "https://github.com/retromcorg/JCode",
-              "description": "Generates daily verification codes for players, with a `/jcode` cape command.",
-              "tags": "jcode verification codes cape"
-            }
-          ]
+          "title": "JohnyPerms",
+          "url": "https://github.com/retromcorg/JohnyPerms",
+          "description": "UUID-aware permissions plugin that replaces PermissionsEx.",
+          "tags": "permissions ranks groups uuid pex johnyperms jperms"
         },
         {
-          "title": "Discord & integrations",
-          "links": [
-            {
-              "title": "DiscordCore-4",
-              "url": "https://github.com/retromcorg/DiscordCore-4",
-              "description": "Discord bot and API plugin for Beta 1.7.3.",
-              "tags": "discord bot api core jda"
-            },
-            {
-              "title": "DiscordCore-6",
-              "url": "https://github.com/retromcorg/DiscordCore-6",
-              "description": "Provides JDA5 for Bukkit plugins.",
-              "tags": "discord jda5 library"
-            },
-            {
-              "title": "Discord-Bot-Chatbridge",
-              "url": "https://github.com/retromcorg/Discord-Bot-Chatbridge",
-              "description": "Discord chat bridge that uses Retro-Bot.",
-              "tags": "discord chat bridge relay retro-bot"
-            },
-            {
-              "title": "Discord-Command-Alerter",
-              "url": "https://github.com/retromcorg/Discord-Command-Alerter",
-              "description": "Posts command usage to a Discord channel.",
-              "tags": "discord commands alert log audit"
-            },
-            {
-              "title": "DiscordRankSyncer",
-              "url": "https://github.com/retromcorg/DiscordRankSyncer",
-              "description": "Basic plugin to sync JPerms ranks to Discord.",
-              "tags": "discord ranks sync jperms roles"
-            },
-            {
-              "title": "Discord-Authentication-Core",
-              "url": "https://github.com/retromcorg/Discord-Authentication-Core",
-              "description": "Extension on DiscordCore for linking Discord and Minecraft accounts.",
-              "tags": "discord authentication link accounts"
-            }
-          ]
+          "title": "WorldEdit",
+          "url": "https://github.com/retromcorg/WorldEdit",
+          "description": "The map editor and mod, forked from EngineHub/WorldEdit for Beta 1.7.3.",
+          "tags": "worldedit build editor selection schematic"
         },
         {
-          "title": "Monitoring & stats",
-          "links": [
-            {
-              "title": "JServerInformation",
-              "url": "https://github.com/retromcorg/JServerInformation",
-              "description": "Provides essential API endpoints through JWebAPI.",
-              "tags": "api endpoints jwebapi server information json"
-            },
-            {
-              "title": "StatsBridge",
-              "url": "https://github.com/retromcorg/StatsBridge",
-              "description": "Stat API bridge plugin for Beta 1.7.3.",
-              "tags": "stats api bridge statistics"
-            },
-            {
-              "title": "minecraft-prometheus-exporter",
-              "url": "https://github.com/retromcorg/minecraft-prometheus-exporter",
-              "description": "Bukkit plugin that exports server stats to Prometheus (fork).",
-              "tags": "prometheus grafana metrics exporter monitoring"
-            }
-          ]
+          "title": "WorldGuard",
+          "url": "https://github.com/retromcorg/WorldGuard",
+          "description": "Protects a server and lets players claim areas. Forked from EngineHub/WorldGuard.",
+          "tags": "worldguard protect regions claims grief"
         },
         {
-          "title": "Developer tools",
-          "links": [
-            {
-              "title": "Poseidon-Plugin-Template",
-              "url": "https://github.com/retromcorg/Poseidon-Plugin-Template",
-              "description": "Maven template for Beta 1.7.3 plugins. Start new Poseidon plugins here.",
-              "tags": "template maven starter project new plugin develop"
-            },
-            {
-              "title": "PoseidonCompat",
-              "url": "https://github.com/retromcorg/PoseidonCompat",
-              "description": "Dummy plugin carrying libraries and shims (such as JSON Simple) for plugins migrating to Poseidon V2.",
-              "badge": "V2",
-              "badgeType": "rc",
-              "tags": "compat shims libraries json simple v2 migrate"
-            },
-            {
-              "title": "RetroBridge",
-              "url": "https://github.com/retromcorg/RetroBridge",
-              "description": "Compatibility layer for economy, permissions, GeoIP, Vanish and more.",
-              "tags": "retrobridge economy permissions geoip vanish compatibility layer"
-            },
-            {
-              "title": "kotlin-libs",
-              "url": "https://github.com/betamcserver/kotlin-libs",
-              "description": "BetaMC's plugin that provides various Kotlin libraries at runtime.",
-              "tags": "kotlin libs libraries runtime library dependency betamc"
-            }
-          ]
-        },
-        {
-          "title": "More plugins & archives",
-          "links": [
-            {
-              "title": "All retromcorg repositories",
-              "url": "https://github.com/orgs/retromcorg/repositories?type=all",
-              "description": "The full list: 50+ repos including many small plugins not shown here.",
-              "tags": "retromcorg organization repositories all github"
-            },
-            {
-              "title": "OldSchoolMinecraft on GitHub",
-              "url": "https://github.com/OldSchoolMinecraft",
-              "description": "Open-source plugins and software from the Old School Minecraft server.",
-              "tags": "old school minecraft oldschoolminecraft plugins open source auth"
-            },
-            {
-              "title": "Bukkit-era download archive",
-              "url": "https://pldm.ml/Minecraft/",
-              "description": "Big dump of old Minecraft servers, Bukkit and plugins. Its uploader only scanned it with ClamAV, so inspect anything before running it.",
-              "badge": "Caution",
-              "badgeType": "warn",
-              "host": "pldm.ml/Minecraft",
-              "tags": "bukkit archive old plugins dump download craftbukkit"
-            },
-            {
-              "title": "r/TheBukkitArchive",
-              "url": "https://www.reddit.com/r/TheBukkitArchive/",
-              "description": "Subreddit sharing archived Bukkit-era plugins and servers.",
-              "host": "reddit.com/r/TheBukkitArchive",
-              "tags": "reddit bukkit archive subreddit community plugins"
-            }
-          ]
+          "title": "LWC",
+          "url": "https://github.com/retromcorg/LWC",
+          "description": "Private locks for chests, furnaces and doors (RetroMC's fork).",
+          "tags": "lwc lock chest door protect private"
         }
       ],
       "note": "**Compatibility:** plugins built for the original 2011 CraftBukkit often load on Poseidon, but not always, because Poseidon's API differs. Test every jar on a local server first, and only download jars from sources you trust."
